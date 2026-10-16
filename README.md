@@ -1,94 +1,64 @@
-﻿# AAI520_Group_4
-AAI, 520 - NLP and GenAI\
-Group 4 - Final Group Project\
-Lashana Narayan, Nik, Nathan
-## Investment Research Agent
-\
-This research agent will access external sources to extract current news and events given a stock symbol to help the end user make an informed decision on investment. To do this, the agent will take in a stock symbol and provide a report containing the following information:
+# AAI-520 Group 4: Investment Research System
 
-- Company overview
-- Recent price performance
-- Relevant market and economic context
-- Recent news themes and sentiment
-- Earnings and financial highlights
-- Material risks and uncertainties
-- Evidence-backed research summary
-- Source list and data timestamps
+Lashana Narayan, Nicholson Alforque, and Nathan Butcher
 
-Useful information to make an informed investment decision includes the following. We should select the most important among these for initial testing and deployment and can further develop to include all of these at a later time.
+The system collects stock and news data, runs fundamental, technical, sentiment,
+and risk analysis, and combines the results in a research report. Nathan's
+integration, workflow, and testing updates are included in this version.
 
-## 1. FUNDAMENTAL ANALYSIS DATA (For our Fundamental Analysis Agent)
+## Files
 
-Financial Health Metrics
+- [Working notebook](Group%204%20-%20Nathan%20Testing.ipynb): project code and saved outputs.
+- [HTML export](Group%204%20-%20Nathan%20Testing.html): readable notebook with results.
+- [External comparisons](external_validation.csv): values, dates, and source URLs.
+- [Recorded model run](AAPL_news_workflow.json): the actual Databricks AAPL result.
+- `investment_data/`: saved AAPL, MSFT, and INTC collection results.
+- `requirements.txt`: package versions used for the checks.
 
-- Valuation Ratios: P/E, P/B, P/S, EV/EBITDA, PEG ratio
-- Profitability: ROE, ROA, ROI, profit margins (gross, operating, net)
-- Liquidity: Current ratio, quick ratio, cash ratio
-- Leverage: Debt-to-equity, debt-to-assets, interest coverage ratio
-- Efficiency: Asset turnover, inventory turnover, receivables turnover Financial Statements
-- Income Statement: Revenue growth, earnings growth, operating income trends
-- Balance Sheet: Assets, liabilities, shareholder equity trends
-- Cash Flow: Operating, investing, financing cash flows
-- Key Metrics: Free cash flow, dividend yield, payout ratio Company Fundamentals
-- Market capitalization, float, insider ownership
-- Business model and competitive advantages
-- Management quality and governance
-- Industry position and market share
+## Integration and workflow changes
 
-## 2. TECHNICAL ANALYSIS DATA (For your Technical Analysis Agent)
+- Added behavior and failure-case tests, collection checks, and external comparisons.
+- Distinguished missing news from neutral sentiment and skipped failed data during routing.
+- Added the news chain: ingest, preprocess, classify, extract, and summarize.
+- Routed news topics to the matching specialist context and included all four
+  specialists in the combined report.
+- Added model evaluation and up to two report revisions. Quotes must match their
+  source previews and contain no more than 12 words. Invalid extractions get up
+  to two correction attempts; unresolved checks remain `needs_review`.
 
-**Price Action & Volume** Historical Prices: Open, high, low, close (OHLC) data Volume: Trading volume patterns and volume-weighted average price (VWAP) Price Trends: Support/resistance levels, trend lines Technical Indicators Momentum: RSI, MACD, Stochastic oscillator Moving Averages: SMA, EMA (20, 50, 200-day) Volatility: Bollinger Bands, Average True Range (ATR) Volume Indicators: On-balance volume, volume profile Chart Patterns Candlestick patterns, head & shoulders, triangles, flags Breakout patterns and consolidation zones Fibonacci retracements and extensions
+## Findings from October 15, 2026
 
-## 3. NEWS & SENTIMENT DATA (For your News Sentiment Agent)
+- All 15 behavior checks passed. Additional scripted checks covered chaining,
+  routing, revision, quote correction, missing analysis, and unresolved feedback.
+- Live collection for AAPL, MSFT, and INTC returned four specialist results each.
+  INTC's collection was partial because trailing P/E was unavailable.
+- Eleven available comparisons against Stock Analysis were within the 1% review
+  tolerance. INTC P/E was unavailable in both sources.
+- A live AAPL model run in Databricks completed with 20 collected articles,
+  8 cleaned previews, and 6 relevant stories. Quote checks and report evaluation
+  passed on the first attempt. This run needed no revision; the scripted tests
+  separately demonstrated revision and rejection behavior.
 
-News Analysis
+## Running the notebook
 
-- Headlines & Content: Recent news articles, press releases
-- Sentiment Scores: Positive, negative, neutral classification
-- Event Detection: Earnings announcements, mergers, regulatory changes
-- Social Media: Twitter sentiment, Reddit discussions (if available) Market-Moving Events Earnings reports and guidance updates
-- FDA approvals (for healthcare stocks)
-- Regulatory changes and legal issues
-- Management changes and strategic announcements
+Use an existing Jupyter environment or import the notebook into Databricks.
+The local checks used Python 3.12. Install dependencies with
+`pip install -r requirements.txt` and run from this folder so the saved files
+can be found. Live news collection needs `NEWS_API_KEY` in the environment.
 
-## 4. RISK ASSESSMENT DATA (For your Risk Assessment Agent)
+The model workflow uses Databricks notebook authentication and Unity Gateway's
+`system.ai.meta-llama-3-3-70b-instruct` model. `RUN_LLM` defaults to true inside
+Databricks and false locally. Local runs display the recorded model result;
+Databricks runs request a new result. `RUN_INTERACTIVE` and `RUN_EXAMPLES`
+default to false.
 
-Risk Metrics
+## Limitations and remaining work
 
-- Volatility: Historical volatility, implied volatility
-- Beta: Stock's correlation with market movements
-- Value at Risk (VaR): Potential losses over time periods
-- Sharpe Ratio: Risk-adjusted returns Market Risk Factors
-- Sector performance and correlation
-- Geographic exposure and currency risk
-- Liquidity risk (bid-ask spreads, trading volume)
-- Credit risk and default probability
+The model was checked live for AAPL only. Its evaluation checks consistency with
+the supplied evidence, not independent article accuracy. News previews are
+incomplete, and the sentiment specialist still uses all 20 original previews.
 
-## 5. ECONOMIC CONTEXT DATA (Using FRED API for macro environment)
-
-Macroeconomic Indicators
-
-- Interest Rates: Federal funds rate, 10-year treasury yield
-- Inflation: CPI, PPI trends and expectations
-- GDP Growth: Economic growth rates and forecasts
-- Employment: Unemployment rate, job growth data Market Environment
-- Market Indices: S&P 500, sector-specific indices
-- Currency: USD strength/weakness (for international exposure)
-- Commodity Prices: Oil, gold, relevant sector commodities
-- Economic Sentiment: Consumer confidence, business sentiment
-
-## 6. COMPETITIVE & INDUSTRY DATA (MED)
-
-Industry Analysis
-
-- Industry growth rates and trends
-- Competitive positioning and market share
-- Regulatory environment and changes
-- Seasonal patterns and cyclicality
-
-Peer Comparison
-
-- Relative valuation vs. competitors
-- Performance benchmarking
-- Industry-specific metrics (e.g., same-store sales for retail)
-Industry-specific metrics (e.g., same-store sales for retail)
+Research planning, dynamic tool selection, and memory across runs remain
+outstanding in this version. FRED was not tested; free cash flow and 52-week
+range calculations need review. Add the actual team GitHub URL to the notebook
+and regenerate the HTML before final submission.
