@@ -1,0 +1,23 @@
+{
+  "symbol": "AAPL",
+  "timestamp": "2026-10-15T20:59:05.683915",
+  "pe_ratio": 39.130436,
+  "pb_ratio": 46.467392,
+  "ps_ratio": 10.691868,
+  "profit_margin": 0.27618998,
+  "operating_margin": 0.32623002,
+  "roe": 1.4875101,
+  "roa": 0.27082002,
+  "current_ratio": 1.003,
+  "debt_to_equity": 78.445,
+  "quick_ratio": 0.812,
+  "revenue_growth": 0.164,
+  "earnings_growth": 0.287,
+  "market_cap": 4991209701376,
+  "enterprise_value": 5013154299904,
+  "shares_outstanding": 14594180000,
+  "float_shares": 14569078010,
+  "dividend_yield": 0.32,
+  "payout_ratio": 0.1204,
+  "free_cash_flow": 0
+}

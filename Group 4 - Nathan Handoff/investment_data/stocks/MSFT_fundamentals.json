@@ -1,0 +1,23 @@
+{
+  "symbol": "MSFT",
+  "timestamp": "2026-10-15T20:59:09.668664",
+  "pe_ratio": 30.271606,
+  "pb_ratio": 9.056325,
+  "ps_ratio": 12.071023,
+  "profit_margin": 0.40305,
+  "operating_margin": 0.45111,
+  "roe": 0.34039003,
+  "roa": 0.14088,
+  "current_ratio": 1.23,
+  "debt_to_equity": 29.118,
+  "quick_ratio": 1.099,
+  "revenue_growth": 0.177,
+  "earnings_growth": 0.317,
+  "market_cap": 4005636341760,
+  "enterprise_value": 4057606389760,
+  "shares_outstanding": 7425545491,
+  "float_shares": 7414555684,
+  "dividend_yield": 0.72,
+  "payout_ratio": 0.1983,
+  "free_cash_flow": 0
+}
