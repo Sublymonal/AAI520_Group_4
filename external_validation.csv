@@ -1,0 +1,13 @@
+ticker,metric,date,notebook_value,reference_value,source,checked_at,difference_pct,result
+AAPL,close,2026-10-15,342.0,342.0,https://stockanalysis.com/stocks/aapl/history/,2026-10-15T20:59:16-07:00,0.0,WITHIN 1%
+AAPL,sma_20,2026-10-15,337.05750274658203,337.05749999999995,https://stockanalysis.com/stocks/aapl/history/,2026-10-15T20:59:16-07:00,0.0,WITHIN 1%
+AAPL,pe_ratio,current snapshot,39.130436,39.23,https://stockanalysis.com/stocks/aapl/statistics/,2026-10-15T20:59:16-07:00,0.254,WITHIN 1%
+AAPL,roe,current snapshot,1.4875101,1.4875,https://stockanalysis.com/stocks/aapl/statistics/,2026-10-15T20:59:16-07:00,0.001,WITHIN 1%
+MSFT,close,2026-10-15,539.4400024414062,539.44,https://stockanalysis.com/stocks/msft/history/,2026-10-15T20:59:17-07:00,0.0,WITHIN 1%
+MSFT,sma_20,2026-10-15,518.4570007324219,518.4570000000001,https://stockanalysis.com/stocks/msft/history/,2026-10-15T20:59:17-07:00,0.0,WITHIN 1%
+MSFT,pe_ratio,current snapshot,30.271606,30.05,https://stockanalysis.com/stocks/msft/statistics/,2026-10-15T20:59:17-07:00,0.737,WITHIN 1%
+MSFT,roe,current snapshot,0.34039003,0.3404,https://stockanalysis.com/stocks/msft/statistics/,2026-10-15T20:59:17-07:00,0.003,WITHIN 1%
+INTC,close,2026-10-15,95.37000274658203,95.37,https://stockanalysis.com/stocks/intc/history/,2026-10-15T20:59:17-07:00,0.0,WITHIN 1%
+INTC,sma_20,2026-10-15,113.4995002746582,113.49949999999998,https://stockanalysis.com/stocks/intc/history/,2026-10-15T20:59:17-07:00,0.0,WITHIN 1%
+INTC,pe_ratio,current snapshot,,,https://stockanalysis.com/stocks/intc/statistics/,2026-10-15T20:59:17-07:00,,UNAVAILABLE
+INTC,roe,current snapshot,-0.10715,-0.1072,https://stockanalysis.com/stocks/intc/statistics/,2026-10-15T20:59:17-07:00,0.047,WITHIN 1%
