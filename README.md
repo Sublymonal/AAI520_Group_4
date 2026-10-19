@@ -8,7 +8,7 @@ integration, workflow, and testing updates are included in this version.
 
 ## Files
 
-- [Working notebook]([Group%204%20-%20Nathan%20Testing.ipynb](https://github.com/Sublymonal/AAI520_Group_4/blob/main/Group%204%20-%20Investment%20Researchers%20-%20Final.ipynb)): project code and saved outputs.
+- [Working notebook](https://github.com/Sublymonal/AAI520_Group_4/blob/main/Group%204%20-%20Investment%20Researchers%20-%20Final.ipynb): project code and saved outputs.
 - [HTML export](Group%204%20-%20Nathan%20Testing.html): readable notebook with results.
 - [External comparisons](external_validation.csv): values, dates, and source URLs.
 - [Recorded model run](AAPL_news_workflow.json): the actual Databricks AAPL result.
