@@ -1,6 +1,6 @@
 # Multi-Agent Investment Research Agent
 **AAI-520 NLP & GenAI · Final Group Project · Group 4**
-Lashana Narayan · Nik · Nathan
+Lashana Narayan · Nicholson Alforque · Nathan Butcher
 
 An autonomous investment research agent. Given a stock symbol, it plans its research, gathers live market, news and economic data, analyzes them with five specialist agents, checks and improves the quality of its own report, and learns from previous runs.
 
