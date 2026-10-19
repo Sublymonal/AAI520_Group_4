@@ -109,6 +109,6 @@ A full run takes a few minutes and uses about 15–20 NewsAPI requests; the free
 
 - **Lashana Narayan:** data collection platform and API integrations; coordinator and report synthesis; autonomous agent functions (memory, tools, planner, self-reflection); Economic Agent; workflow patterns; integrated agent; visualizations; demonstration; system evaluation; documentation
 - **Nik:** Fundamental, Technical, Sentiment and Risk specialist agents
-- **Nathan:** Evaluation, testing
+- **Nathan:** Evaluation, testing, Workflow patterns (chaining, routing, evaluation)
 
 *Parts of the code and documentation were developed with assistance from an AI coding assistant. The team designed, reviewed, ran and validated the work.*
