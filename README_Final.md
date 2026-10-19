@@ -34,11 +34,14 @@ Enter a ticker (e.g. `INTC`) and the agent produces a 14-section research report
 ## Architecture
 
 Data collection     Yahoo Finance · NewsAPI · FRED
+
 │
 Specialist agents   Fundamental · Technical · Sentiment · Risk · Economic
+
 │
 Autonomous agent    plan → tools → prompt chain → routing → self-reflection
 → evaluate ⇄ optimize → report → memory
+
 │
 Output              report · 11 charts · evaluation (tests, metrics, accuracy)
 
