@@ -8,6 +8,13 @@ An autonomous investment research agent. Given a stock symbol, it plans its rese
 
 ---
 
+## Files
+
+- [Working notebook](https://github.com/Sublymonal/AAI520_Group_4/blob/main/Group%204%20-%20Investment%20Researchers%20-%20Final.ipynb): project code and saved outputs.
+- [HTML export](https://github.com/Sublymonal/AAI520_Group_4/blob/main/Group%204%20-%20Investment%20Researchers%20-%20Final.html): readable notebook with results.
+- [External comparisons](external_validation.csv): values, dates, and source URLs.
+
+  
 ## What it does
 
 Enter a ticker (e.g. `INTC`) and the agent produces a 14-section research report covering:
