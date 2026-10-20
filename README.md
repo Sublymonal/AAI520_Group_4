@@ -11,7 +11,7 @@ An autonomous investment research agent. Given a stock symbol, it plans its rese
 ## Files
 
 - [Working notebook](https://github.com/Sublymonal/AAI520_Group_4/blob/main/Group%204%20-%20Investment%20Researchers%20-%20Final.ipynb): project code and saved outputs.
-- [HTML export](https://github.com/Sublymonal/AAI520_Group_4/blob/main/Group%204%20-%20Investment%20Researchers%20-%20Final.html): readable notebook with results.
+- [HTML export](https://github.com/Sublymonal/AAI520_Group_4/blob/main/Group%204%20-%20Investment%20Researchers%20-%20Final.html): readable notebook with results. Examples of other model outputs can also be found in the repo.
 - [Example Outputs](https://github.com/Sublymonal/AAI520_Group_4/blob/main/INTC_20261019_205652_report.txt): An example model output - a report on the stock ticker INTC.
 - [External comparisons](external_validation.csv): values, dates, and source URLs.
 
