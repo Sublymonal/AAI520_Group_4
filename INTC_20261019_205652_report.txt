@@ -1,0 +1,128 @@
+======================================================================
+  INVESTMENT RESEARCH REPORT — INTC
+  Generated: 2026-10-19T20:56:39.134284
+======================================================================
+
+1. COMPANY OVERVIEW & FUNDAMENTAL HIGHLIGHTS
+--------------------------------------------------
+   P/E Ratio:          N/A
+   → P/E ratio unavailable
+   ROE:                -10.7%
+   → Negative return on equity
+   Debt-to-Equity:     49.00
+   → Relatively low debt level
+   Market Cap:         $486.48B
+   Profit Margin:      -19.8%
+   Revenue Growth:     25.4%
+
+2. RECENT PRICE PERFORMANCE & TECHNICAL SIGNALS
+--------------------------------------------------
+   Current Price:      $92.03
+   RSI (14):           20.87
+   → Oversold
+   Trend:              Moderately bearish trend
+   SMA 20:             $111.07
+   SMA 50:             $102.98
+   SMA 200:            $84.83
+   1-Day Return:       2.4%
+   1-Week Return:      -10.5%
+   1-Month Return:    -15.3%
+   3-Month Return:    -3.2%
+
+3. RECENT NEWS THEMES & SENTIMENT
+--------------------------------------------------
+   News/sentiment data not available.
+
+4. MATERIAL RISKS & UNCERTAINTIES
+--------------------------------------------------
+   Annualized Volatility: 77.7%
+   → High
+   Beta (vs S&P 500):     3.07
+   → Higher sensitivity than the market
+
+5. RELEVANT MARKET & ECONOMIC CONTEXT
+--------------------------------------------------
+   Economic indicators not available (FRED API connection issue).
+
+6. EVIDENCE-BACKED RESEARCH SUMMARY
+--------------------------------------------------
+   For INTC, fundamental analysis shows p/e ratio unavailable; technical indicators suggest moderately bearish trend; volatility risk is high.
+   This assessment combines data from Yahoo Finance, NewsAPI,
+   TextBlob sentiment analysis, and FRED economic indicators.
+   Investors should conduct further due diligence before deciding.
+
+7. SOURCE LIST & DATA TIMESTAMPS
+--------------------------------------------------
+   • Yahoo Finance (yfinance) — fundamentals, price/technical data
+   • NewsAPI — recent news headlines
+   • TextBlob — sentiment polarity scoring
+   • FRED API (REST) — macroeconomic indicators
+   Data collected at:      2026-10-19T20:56:39.134284
+   Coordinator routed at:  2026-10-19T20:56:52.058705
+
+8. COMPANY PROFILE & RESEARCH PLAN
+--------------------------------------------------
+   Intel Corporation | Technology / Semiconductors | United States
+   Intel Corporation designs, develops, manufactures, markets, sells, and services computing and related end products and services in the United States, Ireland, Israel, and internationally. It operates through three segments: CCG, DCAI, and Intel Foundry. The company offers client computing group prod...
+   • price_history yahoo_price_history  -> ok
+   • technicals    yahoo_technicals     -> ok
+   • fundamentals  yahoo_fundamentals   -> ok
+   • news          yahoo_news           -> fallback newsapi_headlines failed
+   • economic      fred_economic        -> skipped (optional)
+   ↺ learned: LOW_NEWS_COVERAGE last run (0 relevant articles with 7-day window) -> news window 14 days
+   ↺ learned: NewsAPI demoted to fallback (reliability 0%)
+   ↺ learned: FRED marked optional (reliability 0%)
+   ↺ learned: Optimizer needed ['add_confidence_caveat', 'add_risk_disclosure'] last run -> applied before first evaluation
+
+9. NEWS THEMES (PROMPT CHAIN OUTPUT)
+--------------------------------------------------
+   Stages: {'ingest': 0, 'preprocess': 0, 'classify': 0, 'extract': 0}
+   Themes: {}
+   Summary (template): No relevant recent news was found for INTC.
+
+10. ROUTED SPECIALIST ANALYZERS
+--------------------------------------------------
+   Routing table: {'earnings_analyzer': 0, 'market_analyzer': 0, 'news_event_analyzer': 0}
+   [earnings_analyzer]
+      - Revenue growth (YoY): +25.4%
+      - Net profit margin: -19.8%
+   [market_analyzer]
+      - Returns: 1M -15.3%, 3M -3.2%
+      - Beta 3.07 vs S&P 500
+   [news_event_analyzer]
+      - 0 potential catalysts (product / deals)
+      - 0 event risks (legal, management or negative-tone stories)
+
+11. MACRO ASSESSMENT (ECONOMIC AGENT)
+--------------------------------------------------
+   Economic data unavailable - macro assessment skipped.
+
+12. KEY RISKS, CAVEATS & SIGNAL RECONCILIATION
+--------------------------------------------------
+   ⚠ High volatility (78% annualized)
+   ⚠ Market risk: higher sensitivity than the market (beta 3.07)
+   ⚠ Profitability risk: net margin -19.8% (loss-making)
+   ⚠ Short-term momentum risk: RSI 21 (oversold)
+   ℹ Confidence 0.51; lower-confidence components: fundamental (0.67), sentiment (0.00), economic (0.00).
+   ℹ Sentiment is rule-based (TextBlob) and can misread financial language; news coverage is limited to free-tier APIs.
+   ℹ This report is research support, not investment advice.
+
+13. SELF-REFLECTION (AGENT CONFIDENCE)
+--------------------------------------------------
+   Overall confidence: 0.51
+   fundamental_agent  0.67  Missing input: pe_ratio; P/E undefined because earnings are negative - P/S ratio is the better valuation gauge
+   technical_agent    1.00  no issues
+   risk_agent         0.90  Annualized volatility above 60% - point estimates are unstable
+   sentiment_agent    0.00  Agent did not run - no input data was collected
+   economic_agent     0.00  Agent did not run - no input data was collected
+
+14. QUALITY EVALUATION (EVALUATOR-OPTIMIZER)
+--------------------------------------------------
+   Iteration 1: 62.2/100 {'completeness': 12.0, 'evidence': 0.0, 'confidence': 10.2, 'consistency': 20, 'risk_disclosure': 20.0}
+      🔧 retry_economic: FRED failed again
+      🔧 add_news_source: merged articles from newsapi_headlines (failed)
+   Iteration 2: 62.2/100 {'completeness': 12.0, 'evidence': 0.0, 'confidence': 10.2, 'consistency': 20, 'risk_disclosure': 20.0}
+
+======================================================================
+  END OF REPORT
+======================================================================
