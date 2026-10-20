@@ -1,0 +1,70 @@
+{
+  "timestamp": "2026-10-19T21:10:42.377817",
+  "indicators": {
+    "federal_funds_rate": {
+      "series_id": "FEDFUNDS",
+      "latest_value": 3.75,
+      "latest_date": "2026-09-01",
+      "previous_value": 3.63,
+      "change": 0.1200000000000001,
+      "value_6m_ago": 3.64,
+      "change_6m": 0.10999999999999988
+    },
+    "treasury_10y": {
+      "series_id": "GS10",
+      "latest_value": 4.99,
+      "latest_date": "2026-09-01",
+      "previous_value": 4.68,
+      "change": 0.3100000000000005,
+      "value_6m_ago": 4.25,
+      "change_6m": 0.7400000000000002
+    },
+    "treasury_3m": {
+      "series_id": "GS3M",
+      "latest_value": 4.09,
+      "latest_date": "2026-09-01",
+      "previous_value": 3.88,
+      "change": 0.20999999999999996,
+      "value_6m_ago": 3.72,
+      "change_6m": 0.36999999999999966
+    },
+    "cpi_inflation": {
+      "series_id": "CPIAUCSL",
+      "latest_value": 336.298,
+      "latest_date": "2026-09-01",
+      "previous_value": 334.131,
+      "change": 2.16700000000003,
+      "value_6m_ago": 330.293,
+      "change_6m": 6.0049999999999955,
+      "yoy_pct": 4.023310268457836,
+      "yoy_pct_6m_ago": 3.3202055812236786
+    },
+    "gdp_growth": {
+      "series_id": "A191RL1Q225SBEA",
+      "latest_value": 2.2,
+      "latest_date": "2026-04-01",
+      "previous_value": 2.5,
+      "change": -0.2999999999999998,
+      "value_6m_ago": 0.2,
+      "change_6m": 2.0
+    },
+    "unemployment": {
+      "series_id": "UNRATE",
+      "latest_value": 4.2,
+      "latest_date": "2026-09-01",
+      "previous_value": 4.1,
+      "change": 0.10000000000000053,
+      "value_6m_ago": 4.3,
+      "change_6m": -0.09999999999999964
+    },
+    "sp500_index": {
+      "series_id": "SP500",
+      "latest_value": 7659.44,
+      "latest_date": "2026-10-16",
+      "previous_value": 7744.06,
+      "change": -84.6200000000008,
+      "value_6m_ago": 7041.28,
+      "change_6m": 618.1599999999999
+    }
+  }
+}

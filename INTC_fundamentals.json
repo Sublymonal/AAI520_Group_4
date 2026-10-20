@@ -1,0 +1,23 @@
+{
+  "symbol": "INTC",
+  "timestamp": "2026-10-19T21:11:26.948583",
+  "pe_ratio": null,
+  "pb_ratio": 5.301573,
+  "ps_ratio": 8.529953,
+  "profit_margin": -0.19794,
+  "operating_margin": 0.12189999,
+  "roe": -0.10715,
+  "roa": 0.0141199995,
+  "current_ratio": 1.604,
+  "debt_to_equity": 48.997,
+  "quick_ratio": 1.157,
+  "revenue_growth": 0.254,
+  "earnings_growth": null,
+  "market_cap": 486480248832,
+  "enterprise_value": 489614409728,
+  "shares_outstanding": 5286105262,
+  "float_shares": 4619446520,
+  "dividend_yield": 0.0,
+  "payout_ratio": 0.0,
+  "free_cash_flow": -4949000000.0
+}

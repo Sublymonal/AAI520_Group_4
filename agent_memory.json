@@ -1,0 +1,130 @@
+{
+  "runs": [
+    {
+      "symbol": "INTC",
+      "timestamp": "2026-10-19T21:11:40.428435",
+      "initial_score": 84.9,
+      "final_score": 98.2,
+      "iterations": 2,
+      "overall_confidence": 0.91,
+      "news_days_back": 7,
+      "news_sources": [
+        "NewsAPI"
+      ],
+      "relevant_articles": 13,
+      "overall_sentiment": "Neutral",
+      "trend": "Moderately bearish trend",
+      "tool_failures": [],
+      "seconds": 9.4,
+      "lessons": [
+        {
+          "code": "GOOD_NEWS_COVERAGE",
+          "note": "13 relevant articles with 7-day window"
+        },
+        {
+          "code": "OPTIMIZER_ACTIONS",
+          "note": "add_risk_disclosure"
+        }
+      ]
+    },
+    {
+      "symbol": "INTC",
+      "timestamp": "2026-10-19T21:11:43.078215",
+      "initial_score": 98.2,
+      "final_score": 98.2,
+      "iterations": 1,
+      "overall_confidence": 0.91,
+      "news_days_back": 7,
+      "news_sources": [
+        "NewsAPI"
+      ],
+      "relevant_articles": 13,
+      "overall_sentiment": "Neutral",
+      "trend": "Moderately bearish trend",
+      "tool_failures": [],
+      "seconds": 1.1,
+      "lessons": [
+        {
+          "code": "GOOD_NEWS_COVERAGE",
+          "note": "13 relevant articles with 7-day window"
+        }
+      ]
+    },
+    {
+      "symbol": "MSFT",
+      "timestamp": "2026-10-19T21:11:44.691995",
+      "initial_score": 78.7,
+      "final_score": 99.0,
+      "iterations": 2,
+      "overall_confidence": 0.95,
+      "news_days_back": 7,
+      "news_sources": [
+        "NewsAPI"
+      ],
+      "relevant_articles": 14,
+      "overall_sentiment": "Positive",
+      "trend": "Strong bullish trend",
+      "tool_failures": [],
+      "seconds": 0.7,
+      "lessons": [
+        {
+          "code": "GOOD_NEWS_COVERAGE",
+          "note": "14 relevant articles with 7-day window"
+        },
+        {
+          "code": "OPTIMIZER_ACTIONS",
+          "note": "reconcile_signals, add_risk_disclosure"
+        }
+      ]
+    },
+    {
+      "symbol": "NVDA",
+      "timestamp": "2026-10-19T21:11:45.464391",
+      "initial_score": 92.0,
+      "final_score": 92.0,
+      "iterations": 1,
+      "overall_confidence": 0.95,
+      "news_days_back": 7,
+      "news_sources": [
+        "NewsAPI"
+      ],
+      "relevant_articles": 20,
+      "overall_sentiment": "Positive",
+      "trend": "Moderately bearish trend",
+      "tool_failures": [],
+      "seconds": 0.7,
+      "lessons": [
+        {
+          "code": "GOOD_NEWS_COVERAGE",
+          "note": "20 relevant articles with 7-day window"
+        }
+      ]
+    }
+  ],
+  "tool_stats": {
+    "company_profile": {
+      "success": 4,
+      "failure": 0
+    },
+    "yahoo_price_history": {
+      "success": 4,
+      "failure": 0
+    },
+    "yahoo_technicals": {
+      "success": 4,
+      "failure": 0
+    },
+    "yahoo_fundamentals": {
+      "success": 4,
+      "failure": 0
+    },
+    "newsapi_headlines": {
+      "success": 4,
+      "failure": 0
+    },
+    "fred_economic": {
+      "success": 4,
+      "failure": 0
+    }
+  }
+}

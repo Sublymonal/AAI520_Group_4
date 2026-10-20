@@ -1,0 +1,1561 @@
+{
+  "analysis_timestamp": "2026-10-19T21:11:03.601161",
+  "economic_context": {
+    "timestamp": "2026-10-19T21:10:42.377817",
+    "indicators": {
+      "federal_funds_rate": {
+        "series_id": "FEDFUNDS",
+        "latest_value": 3.75,
+        "latest_date": "2026-09-01",
+        "previous_value": 3.63,
+        "change": 0.1200000000000001,
+        "value_6m_ago": 3.64,
+        "change_6m": 0.10999999999999988
+      },
+      "treasury_10y": {
+        "series_id": "GS10",
+        "latest_value": 4.99,
+        "latest_date": "2026-09-01",
+        "previous_value": 4.68,
+        "change": 0.3100000000000005,
+        "value_6m_ago": 4.25,
+        "change_6m": 0.7400000000000002
+      },
+      "treasury_3m": {
+        "series_id": "GS3M",
+        "latest_value": 4.09,
+        "latest_date": "2026-09-01",
+        "previous_value": 3.88,
+        "change": 0.20999999999999996,
+        "value_6m_ago": 3.72,
+        "change_6m": 0.36999999999999966
+      },
+      "cpi_inflation": {
+        "series_id": "CPIAUCSL",
+        "latest_value": 336.298,
+        "latest_date": "2026-09-01",
+        "previous_value": 334.131,
+        "change": 2.16700000000003,
+        "value_6m_ago": 330.293,
+        "change_6m": 6.0049999999999955,
+        "yoy_pct": 4.023310268457836,
+        "yoy_pct_6m_ago": 3.3202055812236786
+      },
+      "gdp_growth": {
+        "series_id": "A191RL1Q225SBEA",
+        "latest_value": 2.2,
+        "latest_date": "2026-04-01",
+        "previous_value": 2.5,
+        "change": -0.2999999999999998,
+        "value_6m_ago": 0.2,
+        "change_6m": 2.0
+      },
+      "unemployment": {
+        "series_id": "UNRATE",
+        "latest_value": 4.2,
+        "latest_date": "2026-09-01",
+        "previous_value": 4.1,
+        "change": 0.10000000000000053,
+        "value_6m_ago": 4.3,
+        "change_6m": -0.09999999999999964
+      },
+      "sp500_index": {
+        "series_id": "SP500",
+        "latest_value": 7659.44,
+        "latest_date": "2026-10-16",
+        "previous_value": 7744.06,
+        "change": -84.6200000000008,
+        "value_6m_ago": 7041.28,
+        "change_6m": 618.1599999999999
+      }
+    }
+  },
+  "stock_analyses": {
+    "AAPL": {
+      "symbol": "AAPL",
+      "analysis_timestamp": "2026-10-19T21:10:49.919321",
+      "fundamentals": {
+        "symbol": "AAPL",
+        "timestamp": "2026-10-19T21:10:50.599758",
+        "pe_ratio": 39.32798,
+        "pb_ratio": 46.595108,
+        "ps_ratio": 10.721255,
+        "profit_margin": 0.27618998,
+        "operating_margin": 0.32623002,
+        "roe": 1.4875101,
+        "roa": 0.27082002,
+        "current_ratio": 1.003,
+        "debt_to_equity": 78.445,
+        "quick_ratio": 0.812,
+        "revenue_growth": 0.164,
+        "earnings_growth": 0.287,
+        "market_cap": 5004928221184,
+        "enterprise_value": 5034461888512,
+        "shares_outstanding": 14594180000,
+        "float_shares": 14569078010,
+        "dividend_yield": 0.31,
+        "payout_ratio": 0.1204,
+        "free_cash_flow": 98767000000.0
+      },
+      "technical": {
+        "symbol": "AAPL",
+        "timestamp": "2026-10-19T21:10:51.063339",
+        "current_price": 342.94000244140625,
+        "volume_latest": "34524344",
+        "volume_avg_20d": 36966117.2,
+        "sma_20": 337.6220016479492,
+        "sma_50": 326.2916003417969,
+        "sma_200": 292.5012092590332,
+        "ema_20": 337.39842806600046,
+        "ema_50": 329.3128620490006,
+        "rsi": 71.79660257562851,
+        "volatility": 0.24095351632985748,
+        "beta": 0.6219059884897393,
+        "high_52w": 343.4599914550781,
+        "low_52w": 246.0303192138672,
+        "return_1d": -0.0015139725924667724,
+        "return_1w": 0.0048935255999538185,
+        "return_1m": 0.020260010887656277,
+        "return_3m": 0.028452666930732562
+      },
+      "news_sentiment": {
+        "symbol": "AAPL",
+        "timestamp": "2026-10-19T21:10:51.263247",
+        "articles_count": 20,
+        "average_sentiment": 0.11418349416786917,
+        "sentiment_distribution": {
+          "positive": 9,
+          "neutral": 10,
+          "negative": 1
+        },
+        "articles": [
+          {
+            "title": "The $5 Trillion Club: Which Is the Better Stock to Own, Apple or Nvidia?",
+            "description": "Only two companies in the world have ever reached a $5 trillion market cap: Apple (NASDAQ: AAPL) and Nvidia (NASDAQ: NVDA). To reach those heights, both are obviously great companies, but which stock looks like the better long-term buy?\nIn my view, Nvidia has\u2026",
+            "url": "https://biztoc.com/x/6596b07635a83cf4",
+            "published_at": "2026-10-18T20:49:55Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": 0.4800000000000001,
+              "subjectivity": 0.75,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "Apple Keeps Hitting Record Highs. Bitcoin Hasn\u2019t Set One All Year. Which Is the Better Buy?",
+            "description": "The post Apple Keeps Hitting Record Highs. Bitcoin Hasn\u2019t Set One All Year. Which Is the Better Buy? appeared first on 24/7 Wall St..\nApple (NASDAQ: AAPL) is on a roll, consistently hitting new highs. On October 13, 2026, its stock peaked at an intraday high \u2026",
+            "url": "https://biztoc.com/x/7e90cb457816b6ca",
+            "published_at": "2026-10-18T19:02:10Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": 0.2993939393939394,
+              "subjectivity": 0.4296464646464646,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "Show HN: CLI for your financial data (and Costco and Amazon)",
+            "description": "A CLI for your financial data, built for the AI era: fin connects your banks, cards and brokerages through Plaid and brings in your Amazon and Costco purchases, locally and for free.",
+            "url": "https://kilianc.github.io/fin/",
+            "published_at": "2026-10-18T17:11:24Z",
+            "source": "Github.io",
+            "sentiment": {
+              "polarity": 0.1,
+              "subjectivity": 0.2,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "iPhone Duo Preorders Sell Out Rapidly As Delivery Estimates Slip Into January",
+            "description": "Key Stats for Apple Stock\n- Price change for Apple stock in the last 6 months: 27%\n- $AAPL Stock Price as of Oct. 16: $343\n- 52-Week High: $348\n- $AAPL Stock Price Target: $329\nWhat Happened?\nApple's (AAPL:NASDAQ) iPhone Duo went up for preorder on Friday, an\u2026",
+            "url": "https://biztoc.com/x/78fc99422f020852",
+            "published_at": "2026-10-18T14:46:31Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": 0.05333333333333334,
+              "subjectivity": 0.5355555555555556,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "tidelight added to PyPI",
+            "description": "Official Tidelight Intelligence Cloud Python client",
+            "url": "https://pypi.org/project/tidelight/",
+            "published_at": "2026-10-18T03:40:41Z",
+            "source": "Pypi.org",
+            "sentiment": {
+              "polarity": 0.0,
+              "subjectivity": 0.0,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "Apple's Market Value Grew From $350 Billion to $5 Trillion During Tim Cook's 15 Years as CEO. Here's What That Growth Curve Means for Apple's Next Chapter Under John Ternus",
+            "description": "Apple's Market Value Grew From $350 Billion to $5 Trillion During Tim Cook's 15 Years as CEO. Here's What That Growth Curve Means for Apple's Next Chapter Under John Ternus.\nApple (NASDAQ: AAPL) is back in the $5 trillion value club, which it briefly entered \u2026",
+            "url": "https://biztoc.com/x/1662893963d9cba7",
+            "published_at": "2026-10-17T20:40:52Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": 0.0,
+              "subjectivity": 0.08333333333333333,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "Apple Hit a Record Close Ahead of Its November 2 Report. Here\u2019s What Charging for Extra Siri AI Could Mean for the Stock",
+            "description": "Key Stats for Apple Stock\n- Current Price: $343.46\n- Target Price (Mid): ~$485\n- Street Target: ~$329\n- Potential Total Return: ~41%\n- Annualized IRR: ~9% / year\nWhat Happened?\nApple (AAPL) closed at a record $343.46 on October 16, the day iPhone Duo preorder\u2026",
+            "url": "https://biztoc.com/x/46a27125e9069262",
+            "published_at": "2026-10-17T15:39:02Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": -0.0515625,
+              "subjectivity": 0.5046875,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "Apple's New Home Collection Gives Investors Another Reason to Remain Bullish",
+            "description": "This week, Apple (NASDAQ: AAPL) unveiled its Apple Home Collection, which includes nine smart home accessories. The lineup is in collaboration with LG Electronics and Schneider Electric. Some accessories will be available starting in December, with the rest c\u2026",
+            "url": "https://biztoc.com/x/bccc6a7c960c8986",
+            "published_at": "2026-10-17T14:23:18Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": 0.18766233766233767,
+              "subjectivity": 0.39935064935064934,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "Only 10.7% of tokenized stock market cap is issuer-sponsored",
+            "description": "The dominance of synthetic tokens over issuer-sponsored ones highlights potential risks in investor rights and market dependency on custodians.\nThe post Only 10.7% of tokenized stock market cap is issuer-sponsored appeared first on Crypto Briefing.",
+            "url": "https://cryptobriefing.com/tokenized-stocks-issuer-sponsored-share/",
+            "published_at": "2026-10-17T12:37:09Z",
+            "source": "Crypto Briefing",
+            "sentiment": {
+              "polarity": 0.0625,
+              "subjectivity": 0.8333333333333334,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "Amazon\u30d7\u30e9\u30a4\u30e0\u611f\u8b1d\u796d\u3067\u3001PC\u3084Switch\u3060\u3051\u3067\u306a\u304fApple\u30c7\u30d0\u30a4\u30b9\u306b\u3082\u5bfe\u5fdc\u3059\u308b\u300c8BitDo Ultimate 2/Pro 3\u300d\u30b3\u30f3\u30c8\u30ed\u30fc\u30e9\u30fc\u3084GameSir\u306eiPhone/iPad mini\u5bfe\u5fdc\u30b3\u30f3\u30c8\u30ed\u30fc\u30e9\u30fc\u304c\u30bb\u30fc\u30eb\u4e2d\u3002",
+            "description": "Amazon\u30d7\u30e9\u30a4\u30e0\u611f\u8b1d\u796d\u3067\u3001PC\u3084Switch\u3060\u3051\u3067\u306a\u304fApple\u30c7\u30d0\u30a4\u30b9\u306b\u3082\u5bfe\u5fdc\u3059\u308b8BitDo\u306e\u300cUltimate 2/Pro 3\u300d\u30b3\u30f3\u30c8\u30ed\u30fc\u30e9\u30fc\u3084GameSir\u306eiPhone/iPad mini\u7528\u30b3\u30f3\u30c8\u30ed\u30fc\u30e9\u30fc [\u2026]\nThe post Amazon\u30d7\u30e9\u30a4\u30e0\u611f\u8b1d\u796d\u3067\u3001PC\u3084Switch\u3060\u3051\u3067\u306a\u304fApple\u30c7\u30d0\u30a4\u30b9\u306b\u3082\u5bfe\u5fdc\u3059\u308b\u300c8BitDo Ultimate 2/Pro 3\u300d\u30b3\u30f3\u30c8\u30ed\u30fc\u30e9\u30fc\u3084GameSir\u306eiPhone/iPad mini\u5bfe\u5fdc\u30b3\u30f3\u30c8\u30ed\u30fc\u30e9\u30fc\u304c\u30bb\u30fc\u30eb\u4e2d\u3002 first appeared on A\u2026",
+            "url": "https://applech2.com/archives/20261017-amazon-prime-controller-sale.html",
+            "published_at": "2026-10-17T01:51:09Z",
+            "source": "Applech2.com",
+            "sentiment": {
+              "polarity": 0.08333333333333333,
+              "subjectivity": 0.7777777777777778,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "Prediction: Alphabet Will Be a Larger Company Than Apple by the End of 2027",
+            "description": "Right now, Apple (NASDAQ: AAPL) and Alphabet (NASDAQ: GOOG) (NASDAQ: GOOGL) are the world's second- and third-largest companies, respectively. Apple's market cap sits just under $5 billion, while Alphabet's is $4.2 billion. While that's not an insignificant g\u2026",
+            "url": "https://biztoc.com/x/365a3d814e0d3b37",
+            "published_at": "2026-10-16T23:50:19Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": 0.07142857142857142,
+              "subjectivity": 0.2839285714285714,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "Nasdaq 100 Records Worst Week In 18 Months As Investors Steer Clear Of Chipmakers \u2014 AAPL, MSTR, UBER, SOXX In Focus",
+            "description": "Nasdaq 100 Records Worst Week In 18 Months As Investors Steer Clear Of Chipmakers \u2014 AAPL, MSTR, UBER, SOXX In Focus\n- The S&P 500 ended Friday 1.1% lower, the Nasdaq 100 fell 2.5%, and the Dow Jones Industrial Average slipped 0.3%.\n- CoreWeave recorded its wo\u2026",
+            "url": "https://biztoc.com/x/1873a059f55ec669",
+            "published_at": "2026-10-16T22:49:21Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": -0.38999999999999996,
+              "subjectivity": 0.6333333333333333,
+              "label": "negative"
+            }
+          },
+          {
+            "title": "Can Apple's Duo hype offset soft iPhone 18 demand?",
+            "description": "Preorders for Apple's (AAPL) foldable iPhone Duo sold out within minutes on Friday.\nCreative Strategies president and principal analyst Carolina Milanesi sits down with Ines Ferr\u00e9 to talk about what the demand for the Duo model means for the iPhone 18 lineup.",
+            "url": "https://biztoc.com/x/f61aef97d15ffcd6",
+            "published_at": "2026-10-16T21:02:44Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": 0.14814814814814814,
+              "subjectivity": 0.5462962962962964,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "Apple shares hit new all-time closing high",
+            "description": "In Nasdaq trading today, shares of Apple Inc. rose to hit a new all-time closing high. Apple\u2019s all-time intraday high was set on\u2026\nThe post Apple shares hit new all-time closing high appeared first on MacDailyNews.",
+            "url": "https://macdailynews.com/2026/10/16/apple-shares-hit-new-all-time-closing-high-35/",
+            "published_at": "2026-10-16T21:00:14Z",
+            "source": "Macdailynews.com",
+            "sentiment": {
+              "polarity": 0.21101010101010098,
+              "subjectivity": 0.5341077441077441,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "From AI laggard to $5 Trillion: Apple's winning strategy",
+            "description": "Just weeks ago, Apple (AAPL) faced criticism for lagging behind Big Tech rivals in AI infrastructure spending. Now, the company has reportedly surpassed a $5 trillion market valuation. The 8:30 panel examines how CEO Tim Cook helped drive Apple's rise through\u2026",
+            "url": "https://biztoc.com/x/0aadf9913b8dd3ed",
+            "published_at": "2026-10-16T15:15:08Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": 0.033333333333333326,
+              "subjectivity": 0.5166666666666667,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "Apple iPhone Duo preorders sell out, deliveries extend to late January",
+            "description": "Preorders for Apple's (AAPL) $1,999 foldable iPhone Duo sold out in minutes after opening Friday, with delivery dates jumping from Oct. 23 to late January.\nApple's most ambitious iPhone yet, the passport-sized Duo features a 5.4-inch front display and a 7.6-i\u2026",
+            "url": "https://biztoc.com/x/1daeea369eea4b6f",
+            "published_at": "2026-10-16T13:59:56Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": 0.037500000000000006,
+              "subjectivity": 0.6125,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "Amazon\u30d7\u30e9\u30a4\u30e0\u611f\u8b1d\u796d\u3067\u3001Dolby Audio\u306b\u5bfe\u5fdc\u3057\u305f\u300cSoundcore Liberty 5\u300d\u3084AI\u6a5f\u80fd\u4ed8\u304d\u306e\u300cAeroFit 2 AI Assistant\u300d\u3001\u5bdd\u30db\u30f3\u300cSleep A30\u300d\u306a\u3069\u304c\u904e\u53bb\u6700\u5b89\u4fa1\u683c\u3067\u8ca9\u58f2\u4e2d\u3002",
+            "description": "Amazon\u30d7\u30e9\u30a4\u30e0\u611f\u8b1d\u796d\u3067\u3001Dolby Audio\u306b\u5bfe\u5fdc\u3057\u305f\u300cSoundcore Liberty 5\u300d\u3084AI\u6a5f\u80fd\u4ed8\u304d\u306e\u300cAeroFit 2 AI Assistant\u300d\u3001\u5bdd\u30db\u30f3\u300cSleep A30\u300d\u306a\u3069\u304c\u904e\u53bb\u6700\u5b89\u4fa1\u683c\u3067 [\u2026]\nThe post Amazon\u30d7\u30e9\u30a4\u30e0\u611f\u8b1d\u796d\u3067\u3001Dolby Audio\u306b\u5bfe\u5fdc\u3057\u305f\u300cSoundcore Liberty 5\u300d\u3084AI\u6a5f\u80fd\u4ed8\u304d\u306e\u300cAeroFit 2 AI Assistant\u300d\u3001\u5bdd\u30db\u30f3\u300cSleep A30\u300d\u306a\u3069\u304c\u904e\u53bb\u6700\u5b89\u4fa1\u683c\u3067\u8ca9\u58f2\u4e2d\u3002 first appeared on AAPL\u2026",
+            "url": "https://applech2.com/archives/20261016-amazon-prime-soundcore-sale.html",
+            "published_at": "2026-10-16T12:58:54Z",
+            "source": "Applech2.com",
+            "sentiment": {
+              "polarity": 0.25,
+              "subjectivity": 0.3333333333333333,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "iPhone/iPad\u7528\u30ed\u30fc\u30ab\u30ebAI\u30af\u30e9\u30a4\u30a2\u30f3\u30c8\u300cLocally AI\u300d\u304cTernary Bonsai 2\u30e2\u30c7\u30eb\u3084M5 Neural Accelerators\u306b\u5bfe\u5fdc\u3002",
+            "description": "iPhone/iPad\u306b\u5bfe\u5fdc\u3057\u305f\u30ed\u30fc\u30ab\u30ebAI\u30af\u30e9\u30a4\u30a2\u30f3\u30c8\u300cLocally AI\u300d\u304cTernary Bonsai 2\u30e2\u30c7\u30eb\u3084M5 Neural Accelerators\u306b\u5bfe\u5fdc\u3057\u3066\u3044\u307e\u3059\u3002\u8a73\u7d30\u306f\u4ee5\u4e0b\u304b\u3089\u3002 \u3000\u5143Apple\u30a8 [\u2026]\nThe post iPhone/iPad\u7528\u30ed\u30fc\u30ab\u30ebAI\u30af\u30e9\u30a4\u30a2\u30f3\u30c8\u300cLocally AI\u300d\u304cTernary Bonsai 2\u30e2\u30c7\u30eb\u3084M5 Neural Accelerators\u306b\u5bfe\u5fdc\u3002 first appeared on AAPL Ch..",
+            "url": "https://applech2.com/archives/20261016-locally-ai-support-m5-neural-accelerators.html",
+            "published_at": "2026-10-16T07:26:18Z",
+            "source": "Applech2.com",
+            "sentiment": {
+              "polarity": 0.25,
+              "subjectivity": 0.3333333333333333,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "Is Apple the Ultimate Stock to Buy Right Now?",
+            "description": "Apple (NASDAQ: AAPL) has quietly been one of the better-performing stocks of 2026. It has risen about 25% so far in 2026, easily crushing the S&P 500's (SNPINDEX: ^GSPC) 14% rise. But the question is: Is it still a good stock to buy compared to other big tech\u2026",
+            "url": "https://biztoc.com/x/ad63676e495e212f",
+            "published_at": "2026-10-15T22:07:54Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": 0.17008928571428572,
+              "subjectivity": 0.6055059523809523,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "Apple iPhone Duo available for pre-order Friday",
+            "description": "Apple's (AAPL) foldable iPhone Duo is up for pre-order on Friday, just days after the company's market cap topped $5 trillion for the second time.\nApple's most ambitious iPhone yet, the passport-sized Duo is also one of Apple's priciest smartphones to date.\nS\u2026",
+            "url": "https://biztoc.com/x/82ec697d63bc90f5",
+            "published_at": "2026-10-15T16:21:24Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": 0.2875,
+              "subjectivity": 0.4125,
+              "label": "positive"
+            }
+          }
+        ]
+      }
+    },
+    "GOOGL": {
+      "symbol": "GOOGL",
+      "analysis_timestamp": "2026-10-19T21:10:53.305037",
+      "fundamentals": {
+        "symbol": "GOOGL",
+        "timestamp": "2026-10-19T21:10:53.526987",
+        "pe_ratio": 17.269442,
+        "pb_ratio": 6.7624173,
+        "ps_ratio": 9.440726,
+        "profit_margin": 0.54771,
+        "operating_margin": 0.34033,
+        "roe": 0.48676,
+        "roa": 0.12958999,
+        "current_ratio": 2.724,
+        "debt_to_equity": 18.859,
+        "quick_ratio": 2.471,
+        "revenue_growth": 0.242,
+        "earnings_growth": 2.94,
+        "market_cap": 4209298898944,
+        "enterprise_value": 4061755604992,
+        "shares_outstanding": 5867155790,
+        "float_shares": 10879808000,
+        "dividend_yield": 0.26,
+        "payout_ratio": 0.042600002,
+        "free_cash_flow": 73266000000.0
+      },
+      "technical": {
+        "symbol": "GOOGL",
+        "timestamp": "2026-10-19T21:10:53.747588",
+        "current_price": 344.17999267578125,
+        "volume_latest": "19012489",
+        "volume_avg_20d": 24551649.45,
+        "sma_20": 345.87449951171874,
+        "sma_50": 344.29405883789065,
+        "sma_200": 340.7155206298828,
+        "ema_20": 346.34334157080394,
+        "ema_50": 346.29239303254764,
+        "rsi": 53.33331669114109,
+        "volatility": 0.3156779384911874,
+        "beta": 1.3667056261343387,
+        "high_52w": 402.1211853027344,
+        "low_52w": 249.81033325195312,
+        "return_1d": 0.010540521966267757,
+        "return_1w": -0.02713552528871066,
+        "return_1m": -0.015334484574322405,
+        "return_3m": -0.006830954783781817
+      },
+      "news_sentiment": {
+        "symbol": "GOOGL",
+        "timestamp": "2026-10-19T21:10:53.873938",
+        "articles_count": 18,
+        "average_sentiment": 0.10065322537544759,
+        "sentiment_distribution": {
+          "positive": 10,
+          "neutral": 7,
+          "negative": 1
+        },
+        "articles": [
+          {
+            "title": "Alphabet\u2019s (GOOGL) Low P/E Is Misleading, but the AI Opportunity Is Real",
+            "description": "Alphabet Inc. (NASDAQ:GOOGL) has surged 3.43% over the last six months, as of October 15. This compares to a 21.5% return for the Insider Monkey Billionaire Index and 15.74% for the State Street SPDR S&P 500 ETF Trust.\nAlphabet's business is growing, but the \u2026",
+            "url": "https://biztoc.com/x/5ca4e4354b262390",
+            "published_at": "2026-10-18T15:18:08Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": 0.037500000000000006,
+              "subjectivity": 0.16666666666666669,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "Can Alphabet Stock Double By 2030?",
+            "description": "Alphabet (NASDAQ: GOOG) (NASDAQ: GOOGL) might have what it takes to double in value by 2030. It is in the middle of a correction, but its 35% return during the past year shows what is possible when the stock gains momentum. Artificial intelligence (AI) is a m\u2026",
+            "url": "https://biztoc.com/x/bd42d18dbb429ce2",
+            "published_at": "2026-10-18T10:30:05Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": -0.14166666666666666,
+              "subjectivity": 0.375,
+              "label": "negative"
+            }
+          },
+          {
+            "title": "Prediction: Alphabet Will Be a Larger Company Than Apple by the End of 2027",
+            "description": "Right now, Apple (NASDAQ: AAPL) and Alphabet (NASDAQ: GOOG) (NASDAQ: GOOGL) are the world's second- and third-largest companies, respectively. Apple's market cap sits just under $5 billion, while Alphabet's is $4.2 billion. While that's not an insignificant g\u2026",
+            "url": "https://biztoc.com/x/365a3d814e0d3b37",
+            "published_at": "2026-10-16T23:50:19Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": 0.07142857142857142,
+              "subjectivity": 0.2839285714285714,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "Apple shares hit new all-time closing high",
+            "description": "In Nasdaq trading today, shares of Apple Inc. rose to hit a new all-time closing high. Apple\u2019s all-time intraday high was set on\u2026\nThe post Apple shares hit new all-time closing high appeared first on MacDailyNews.",
+            "url": "https://macdailynews.com/2026/10/16/apple-shares-hit-new-all-time-closing-high-35/",
+            "published_at": "2026-10-16T21:00:14Z",
+            "source": "Macdailynews.com",
+            "sentiment": {
+              "polarity": 0.21101010101010098,
+              "subjectivity": 0.5341077441077441,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "GOOGL, GOOG Investors Have Opportunity to Lead Alphabet Inc. Securities Fraud Lawsuit",
+            "description": "NEW YORK, Oct. 15, 2026 /PRNewswire/ -- Why: Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Alphabet Inc. (NASDAQ: GOOGL, GOOG) between May 19, 2026 and July 16, 2026, inclusive (the \"Class Period\"), of the important De\u2026",
+            "url": "https://www.prnewswire.com/news-releases/googl-goog-investors-have-opportunity-to-lead-alphabet-inc-securities-fraud-lawsuit-302910397.html",
+            "published_at": "2026-10-15T19:44:00Z",
+            "source": "PRNewswire",
+            "sentiment": {
+              "polarity": 0.02727272727272727,
+              "subjectivity": 0.45090909090909087,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "Apple shares hit new all-time closing high",
+            "description": "In Nasdaq trading today, shares of Apple Inc. rose to hit a new all-time closing high. Apple\u2019s all-time intraday high was set on\u2026\nThe post Apple shares hit new all-time closing high appeared first on MacDailyNews.",
+            "url": "https://macdailynews.com/2026/10/14/apple-shares-hit-new-all-time-closing-high-34/",
+            "published_at": "2026-10-15T00:54:26Z",
+            "source": "Macdailynews.com",
+            "sentiment": {
+              "polarity": 0.21101010101010098,
+              "subjectivity": 0.5341077441077441,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "Apple is finally taking the smart home seriously",
+            "description": "has danced around making a major push into the smart home market for years, via its HomePod, HomePod mini, and Home app. But it fell shy of ever launching its own dedicated smart home hub, ceding much of the space to Amazon (AMZN) and Google (GOOG, GOOGL).\nTh\u2026",
+            "url": "https://biztoc.com/x/e75293c97fa48ce8",
+            "published_at": "2026-10-14T13:51:30Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": 0.07466931216931218,
+              "subjectivity": 0.643915343915344,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "Does the Risk-Reward Profile Still Favor Alphabet (GOOGL) Investors?",
+            "description": "Alphabet Inc. (NASDAQ:GOOGL) has outpaced the market by more than 26 percentage points during the last 1 year, and a massive gap between its operating cash flow and free cash flow reflects on how much this tech giant is betting on accelerated AI spending. Inv\u2026",
+            "url": "https://biztoc.com/x/7369541e9080e30f",
+            "published_at": "2026-10-13T21:46:39Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": 0.18333333333333335,
+              "subjectivity": 0.5944444444444444,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "Apple shares hit new all-time high",
+            "description": "Apple shares reached a fresh all-time high on Tuesday, trading near $346 as the company rolled out a new smart-home lineup centered\u2026\nThe post Apple shares hit new all-time high appeared first on MacDailyNews.",
+            "url": "https://macdailynews.com/2026/10/13/apple-shares-hit-new-all-time-high/",
+            "published_at": "2026-10-13T15:02:17Z",
+            "source": "Macdailynews.com",
+            "sentiment": {
+              "polarity": 0.171010101010101,
+              "subjectivity": 0.46855218855218855,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "Apple debuts HomeView hub as it reinvents smart home strategy",
+            "description": "Apple (AAPL) is reinventing its smart home strategy with its new HomeView hub, the HomePod Mini 2, and Apple TV 4K.Sporting a seven-inch Liquid Retina Display, the HomeView is designed to sit on a counter in its built-in speaker mount or be mounted to a wall.\u2026",
+            "url": "https://finance.yahoo.com/technology/article/apple-debuts-homeview-hub-as-it-reinvents-smart-home-strategy-131744984.html",
+            "published_at": "2026-10-13T13:17:44Z",
+            "source": "Yahoo Entertainment",
+            "sentiment": {
+              "polarity": 0.1883116883116883,
+              "subjectivity": 0.5800865800865801,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "STARTRADER Adds 48 US Stock CFDs with 24-Hour Weekday Trading",
+            "description": "Available from October 13, 2026, the new symbols span ten sectors and are tradable during extended weekday hours. PORT LOUIS, Mauritius, Oct. 13, 2026 /PRNewswire/ -- STARTRADER has launched 48 new US Stock CFDs on its MT5 servers, tradable from Monday 03:00 \u2026",
+            "url": "https://www.prnewswire.com/news-releases/startrader-adds-48-us-stock-cfds-with-24-hour-weekday-trading-302906925.html",
+            "published_at": "2026-10-13T10:32:00Z",
+            "source": "PRNewswire",
+            "sentiment": {
+              "polarity": 0.16818181818181818,
+              "subjectivity": 0.32727272727272727,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "GOOG, GOOGL Stock Alert: Alphabet AI Issues and Subsequent 4% Stock Drop Trigger Securities Fraud Class Action for Investors",
+            "description": "Alphabet has been sued for securities fraud after its stock price fell 4% because Alphabet allegedly misrepresented the progress of development of its Gemini 3.5 Pro AI model. NEW YORK, Oct. 13, 2026 /PRNewswire/ -- Leading securities law firm Bleichmar Fonti\u2026",
+            "url": "https://www.prnewswire.com/news-releases/goog-googl-stock-alert-alphabet-ai-issues-and-subsequent-4-stock-drop-trigger-securities-fraud-class-action-for-investors-302906001.html",
+            "published_at": "2026-10-13T10:06:00Z",
+            "source": "PRNewswire",
+            "sentiment": {
+              "polarity": -0.012727272727272731,
+              "subjectivity": 0.2209090909090909,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "$10,000 Invested Equally in Alphabet and Nvidia Could Be Worth This Much by 2030",
+            "description": "Pick almost any frontier of anything from modern tech, search, or advertising, cloud computing, self-driving cars, or quantum physics, and odds are Alphabet (NASDAQ: GOOGL) (NASDAQ: GOOG) or Nvidia (NASDAQ: NVDA) is already standing in it. Split $10,000 betwe\u2026",
+            "url": "https://biztoc.com/x/d0bafaf13182e1bd",
+            "published_at": "2026-10-12T22:37:26Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": 0.175,
+              "subjectivity": 0.21250000000000002,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "Banks Struggle to Digest the Mounting Debt Driving the AI Boom",
+            "description": "Whether called \"artifiical intelligence\" or \"super intelligence\" the biggest players in the industry need massive capital infusions.",
+            "url": "https://www.nakedcapitalism.com/2026/10/banks-struggle-to-digest-the-mounting-debt-driving-the-ai-boom.html",
+            "published_at": "2026-10-12T18:00:34Z",
+            "source": "Nakedcapitalism.com",
+            "sentiment": {
+              "polarity": 0.16666666666666666,
+              "subjectivity": 0.8333333333333333,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "Nvidia, AMD, Google, and Meta team up on global blueprint for data center design",
+            "description": "is joining rival AMD (AMD) along with partners Google (GOOG, GOOGL) and Meta (META) to establish a new open specification for data center design.\nCalled the Open Data Center Specification v0.7, the standard serves as a blueprint for building data centers, cov\u2026",
+            "url": "https://biztoc.com/x/15c833dc229da78b",
+            "published_at": "2026-10-12T16:05:56Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": -0.020454545454545458,
+              "subjectivity": 0.21931818181818186,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "Salesforce CEO's 11-word post reveals a new pressure on tech giants",
+            "description": "Americans who opened Google Maps on Monday, Feb. 10, 2025, found the Gulf of Mexico had a new name, a switch Alphabet\u2019s (GOOGL) Google confirmed on its blog.\nDays later, the White House barred the Associated Press from the Oval Office and Air Force One for ke\u2026",
+            "url": "https://biztoc.com/x/422cba161c03aee4",
+            "published_at": "2026-10-12T14:16:24Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": 0.13454545454545455,
+              "subjectivity": 0.38181818181818183,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "GOOG/GOOGL Stockholder Notice: Shareholder Rights Law Firm Robbins LLP Reminds Investors of the Securities Class Action Lawsuit Filed Against Alphabet Inc.",
+            "description": "SAN DIEGO, Oct. 12, 2026 /PRNewswire/ -- Shareholder rights law firm Robbins LLP reminds investors that a class action was filed on behalf of persons or entities who purchased or otherwise acquired Alphabet Inc. (NASDAQ: GOOG/GOOGL) securities between May 19,\u2026",
+            "url": "https://www.prnewswire.com/news-releases/googgoogl-stockholder-notice-shareholder-rights-law-firm-robbins-llp-reminds-investors-of-the-securities-class-action-lawsuit-filed-against-alphabet-inc-302905356.html",
+            "published_at": "2026-10-12T13:36:00Z",
+            "source": "PRNewswire",
+            "sentiment": {
+              "polarity": -0.05000000000000001,
+              "subjectivity": 0.25,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "$1.99 | Revenge of the Tipping Point: Overstories, Superspreaders, and the Rise of Social Engineering (eBook) by Malcolm Gladwell",
+            "description": "Previous Frontpage Deal at $2.00 with 37 Deal Score and 8 comments\n\nAvailable Retailers:Amazon [amazon.com] (Kindle eBook)\niBooks [apple.com]\nBarnes & Noble [barnesandnoble.com] (NOOK eBook)\nGoogl",
+            "url": "https://slickdeals.net/f/20144805-1-99-revenge-of-the-tipping-point-overstories-superspreaders-and-the-rise-of-social-engineering-ebook-by-malcolm-gladwell",
+            "published_at": "2026-10-12T07:36:14Z",
+            "source": "Slickdeals.net",
+            "sentiment": {
+              "polarity": 0.21666666666666667,
+              "subjectivity": 0.3833333333333333,
+              "label": "positive"
+            }
+          }
+        ]
+      }
+    },
+    "MSFT": {
+      "symbol": "MSFT",
+      "analysis_timestamp": "2026-10-19T21:10:55.901673",
+      "fundamentals": {
+        "symbol": "MSFT",
+        "timestamp": "2026-10-19T21:10:56.044092",
+        "pe_ratio": 29.722563,
+        "pb_ratio": 8.956939,
+        "ps_ratio": 11.938552,
+        "profit_margin": 0.40305,
+        "operating_margin": 0.45111,
+        "roe": 0.34039003,
+        "roa": 0.14088,
+        "current_ratio": 1.23,
+        "debt_to_equity": 29.118,
+        "quick_ratio": 1.099,
+        "revenue_growth": 0.177,
+        "earnings_growth": 0.317,
+        "market_cap": 3961677414400,
+        "enterprise_value": 3980454789120,
+        "shares_outstanding": 7425545491,
+        "float_shares": 7414555684,
+        "dividend_yield": 0.74,
+        "payout_ratio": 0.1983,
+        "free_cash_flow": 66987000000.0
+      },
+      "technical": {
+        "symbol": "MSFT",
+        "timestamp": "2026-10-19T21:10:56.265674",
+        "current_price": 533.52001953125,
+        "volume_latest": "17469801",
+        "volume_avg_20d": 21792720.05,
+        "sma_20": 521.8160018920898,
+        "sma_50": 506.0549047851562,
+        "sma_200": 434.2942283630371,
+        "ema_20": 523.5891039904742,
+        "ema_50": 500.95143822898507,
+        "rsi": 65.47376921523951,
+        "volatility": 0.329620969903375,
+        "beta": 1.0298949991243567,
+        "high_52w": 543.4500122070312,
+        "low_52w": 352.1670227050781,
+        "return_1d": 0.008449167075740505,
+        "return_1w": -0.018272136264113947,
+        "return_1m": 0.08048122817893955,
+        "return_3m": 0.3572809512962516
+      },
+      "news_sentiment": {
+        "symbol": "MSFT",
+        "timestamp": "2026-10-19T21:10:56.405345",
+        "articles_count": 20,
+        "average_sentiment": 0.13728282828282828,
+        "sentiment_distribution": {
+          "positive": 11,
+          "neutral": 9,
+          "negative": 0
+        },
+        "articles": [
+          {
+            "title": "Here's How Microsoft's $175 Billion in Capital Expenditures Is Hurting Its Business",
+            "description": "Microsoft (NASDAQ: MSFT) is among the big three cloud computing infrastructure providers and is always included in any list of AI hyperscalers. It's heavily pursuing a massive amount of AI computing power for its internal service, Copilot, while also powering\u2026",
+            "url": "https://biztoc.com/x/620c70b1d70318fd",
+            "published_at": "2026-10-17T15:09:06Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": -0.05,
+              "subjectivity": 0.4,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "Only 10.7% of tokenized stock market cap is issuer-sponsored",
+            "description": "The dominance of synthetic tokens over issuer-sponsored ones highlights potential risks in investor rights and market dependency on custodians.\nThe post Only 10.7% of tokenized stock market cap is issuer-sponsored appeared first on Crypto Briefing.",
+            "url": "https://cryptobriefing.com/tokenized-stocks-issuer-sponsored-share/",
+            "published_at": "2026-10-17T12:37:09Z",
+            "source": "Crypto Briefing",
+            "sentiment": {
+              "polarity": 0.0625,
+              "subjectivity": 0.8333333333333334,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "Apple shares hit new all-time closing high",
+            "description": "In Nasdaq trading today, shares of Apple Inc. rose to hit a new all-time closing high. Apple\u2019s all-time intraday high was set on\u2026\nThe post Apple shares hit new all-time closing high appeared first on MacDailyNews.",
+            "url": "https://macdailynews.com/2026/10/16/apple-shares-hit-new-all-time-closing-high-35/",
+            "published_at": "2026-10-16T21:00:14Z",
+            "source": "Macdailynews.com",
+            "sentiment": {
+              "polarity": 0.21101010101010098,
+              "subjectivity": 0.5341077441077441,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "PALANTIR unravels: Sheds $260 billion...",
+            "description": "Palantir was breaking records earlier this week and is now heading for correction territory.",
+            "url": "https://finance.yahoo.com/markets/article/palantirs-record-breakout-unravels-as-software-stocks-shed-260-billion-174307974.html",
+            "published_at": "2026-10-16T19:00:12Z",
+            "source": "Yahoo Entertainment",
+            "sentiment": {
+              "polarity": 0.0,
+              "subjectivity": 0.5,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "Strong Azure Results Powered Microsoft Corporation\u2019s (MSFT) Rally",
+            "description": "Diamond Hill Capital, a First Eagle Investment Management company, issued its Q3 2026 investor letter for its \"Large Cap Strategy\". The letter can be downloaded here. The Strategy returned 3.18% (net of fees) in the quarter, outperforming the 2.61% return of \u2026",
+            "url": "https://biztoc.com/x/8814e6d070aaa371",
+            "published_at": "2026-10-16T16:47:07Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": 0.2244047619047619,
+              "subjectivity": 0.3738095238095238,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "How Earnings Beat Will Impact Microsoft (MSFT) Stock",
+            "description": "Microsoft reported strong quarterly results, with Azure revenue of more than US$100b for fiscal 2026 and Q4 Azure growth of 43%, supported by heavy AI and cloud spending and new offerings such as Copilot, E7 and first party Maia chips.\n- Commercial cloud rema\u2026",
+            "url": "https://biztoc.com/x/df23e95d6240f64e",
+            "published_at": "2026-10-16T05:24:07Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": 0.15995670995670994,
+              "subjectivity": 0.43160173160173165,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "MSFT Stock Gets Slew Of Price Target Hikes Ahead Of Earnings \u2013 TD Cowen Sees \u2018Higher Than Normal\u2019 Azure Beat Potential",
+            "description": "UBS raised its target to $675 from $525, citing Azure and Microsoft 365 fundamentals despite higher growth expectations.\n- Citi analyst Tyler Radke raised the firm's price target to $636 from $600 and maintained a 'Buy' rating.\n- UMass Memorial Health partner\u2026",
+            "url": "https://biztoc.com/x/b60a3ee6950b1a84",
+            "published_at": "2026-10-15T16:05:53Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": 0.09,
+              "subjectivity": 0.61,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning",
+            "description": "Always-on agents are taking on longer, more complex enterprise workflows. A single request can involve reading a document, checking information across sources,...",
+            "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
+            "published_at": "2026-10-15T15:09:00Z",
+            "source": "Nvidia.com",
+            "sentiment": {
+              "polarity": 0.11547619047619045,
+              "subjectivity": 0.44523809523809516,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "Apple shares hit new all-time closing high",
+            "description": "In Nasdaq trading today, shares of Apple Inc. rose to hit a new all-time closing high. Apple\u2019s all-time intraday high was set on\u2026\nThe post Apple shares hit new all-time closing high appeared first on MacDailyNews.",
+            "url": "https://macdailynews.com/2026/10/14/apple-shares-hit-new-all-time-closing-high-34/",
+            "published_at": "2026-10-15T00:54:26Z",
+            "source": "Macdailynews.com",
+            "sentiment": {
+              "polarity": 0.21101010101010098,
+              "subjectivity": 0.5341077441077441,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "3 Trillion-Dollar Giants That Could Be the Next Big Stock-Split Plays",
+            "description": "Stock splits can help put companies with lofty ticker prices back on retail investors' radar. These days, Micron Technology (NASDAQ: MU), Microsoft (NASDAQ: MSFT), and Meta Platforms (NASDAQ: META) stand out as some of the trillion-dollar giants that could be\u2026",
+            "url": "https://biztoc.com/x/c0ead9e9027065ed",
+            "published_at": "2026-10-14T21:10:02Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": 0.0,
+              "subjectivity": 0.03333333333333333,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "S&P 500 options are the hottest bet on this Hyperliquid exchange",
+            "description": "Hypercall, an exchange built on Hyperliquid, says most of its $640 million in volume since June has come from the index.",
+            "url": "https://www.coindesk.com/markets/2026/10/14/s-and-p-500-options-are-the-hottest-bet-on-this-hyperliquid-exchange",
+            "published_at": "2026-10-14T10:38:47Z",
+            "source": "CoinDesk",
+            "sentiment": {
+              "polarity": 0.5,
+              "subjectivity": 0.5,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "SocGen's top stock strategist shares the 3-part AI investing playbook, and 12 stocks to own for further upside",
+            "description": "It's been four years since the start of the AI-fueled bull market, and Soci\u00e9t\u00e9 G\u00e9n\u00e9rale has the playbook for the next phase of investors' favorite trade.",
+            "url": "https://www.businessinsider.com/top-ai-stock-picks-to-buy-investing-productivity-msft-lly-2026-10#article",
+            "published_at": "2026-10-14T09:15:01Z",
+            "source": "Business Insider",
+            "sentiment": {
+              "polarity": 0.32,
+              "subjectivity": 0.6,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "MSFT Stock Gets A Thumbs Up From Barclays \u2013 Firm Expects Quarter To Start Showing \u2018More Differentiation\u2019 In Software",
+            "description": "MSFT Stock Gets A Thumbs Up From Barclays \u2013 Firm Expects Quarter To Start Showing \u2018More Differentiation\u2019 In Software\n- Microsoft plans to scale its Azure Maia chip deployments starting in 2027, with Maia 300 expected to enter production deployments that year.\u2026",
+            "url": "https://biztoc.com/x/962403b9a8043afd",
+            "published_at": "2026-10-13T15:59:19Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": 0.08333333333333333,
+              "subjectivity": 0.38333333333333336,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "Apple shares hit new all-time high",
+            "description": "Apple shares reached a fresh all-time high on Tuesday, trading near $346 as the company rolled out a new smart-home lineup centered\u2026\nThe post Apple shares hit new all-time high appeared first on MacDailyNews.",
+            "url": "https://macdailynews.com/2026/10/13/apple-shares-hit-new-all-time-high/",
+            "published_at": "2026-10-13T15:02:17Z",
+            "source": "Macdailynews.com",
+            "sentiment": {
+              "polarity": 0.171010101010101,
+              "subjectivity": 0.46855218855218855,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "Claude Was Right About Microsoft (MSFT): Can The Stock Keep Rising?",
+            "description": "Microsoft Corporation (NASDAQ:MSFT) is in the news after the company unveiled Maia 300, its third-generation AI chip, which it says will become the main system for running AI across its products from 2027. The stock was a surprising topper in our list of the \u2026",
+            "url": "https://biztoc.com/x/fd5b5aef724ca08d",
+            "published_at": "2026-10-13T13:56:55Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": 0.3841269841269841,
+              "subjectivity": 0.45634920634920634,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "Show HN: Tradefloor \u2013 turn market narratives into testable scenarios",
+            "description": "Local-first financial research desk for Claude Code and Codex. Inspect sources, compare scenarios, replay agent research and export cited reports. Python CLI + MCP. No broker orders. - HimanshuJ16/...",
+            "url": "https://github.com/HimanshuJ16/tradefloor",
+            "published_at": "2026-10-13T13:32:13Z",
+            "source": "Github.com",
+            "sentiment": {
+              "polarity": 0.0,
+              "subjectivity": 0.0,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "Why the Market Dipped But Microsoft (MSFT) Gained Today",
+            "description": "closed the most recent trading day at $541.13, moving +1.13% from the previous trading session. The stock's change was more than the S&P 500's daily loss of 0.06%. Elsewhere, the Dow gained 0.38%, while the tech-heavy Nasdaq lost 0.44%.\nShares of the software\u2026",
+            "url": "https://biztoc.com/x/e7c74dc708236364",
+            "published_at": "2026-10-12T22:36:24Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": 0.12222222222222223,
+              "subjectivity": 0.25277777777777777,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "Banks Struggle to Digest the Mounting Debt Driving the AI Boom",
+            "description": "Whether called \"artifiical intelligence\" or \"super intelligence\" the biggest players in the industry need massive capital infusions.",
+            "url": "https://www.nakedcapitalism.com/2026/10/banks-struggle-to-digest-the-mounting-debt-driving-the-ai-boom.html",
+            "published_at": "2026-10-12T18:00:34Z",
+            "source": "Nakedcapitalism.com",
+            "sentiment": {
+              "polarity": 0.16666666666666666,
+              "subjectivity": 0.8333333333333333,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "[\u30a2\u30c3\u30d7\u30c7\u30fc\u30c8] Amazon S3 Tables \u3067 Apache Iceberg V3 \u306e\u5168\u30c7\u30fc\u30bf\u578b\u304c\u5229\u7528\u53ef\u80fd\u306b\u306a\u3063\u305f\u306e\u3067 AWS Glue 6.0 \u306e Interactive Session \u3067\u8a66\u3057\u3066\u307f\u305f",
+            "description": "Amazon S3 Tables \u304c Apache Iceberg V3 \u306e\u65b0\u3057\u3044\u30c7\u30fc\u30bf\u578b\u3092\u30b5\u30dd\u30fc\u30c8\u3057\u307e\u3057\u305f\u3002AWS Glue 6.0 \u306e Interactive Session \u3092\u4f7f\u3044\u3001\u30ed\u30fc\u30ab\u30eb\u306e Jupyter \u30ce\u30fc\u30c8\u30d6\u30c3\u30af\u304b\u3089 geometry\u3001geography\u3001\u30ca\u30ce\u79d2\u7cbe\u5ea6\u306e\u30bf\u30a4\u30e0\u30b9\u30bf\u30f3\u30d7\u306a\u3069\u306e V3 \u30c7\u30fc\u30bf\u578b\u3092\u8a66\u3057\u3066\u307f\u307e\u3057\u305f\u3002",
+            "url": "https://dev.classmethod.jp/articles/20261012-amazon-s3-tables-iceberg-v3/",
+            "published_at": "2026-10-12T14:53:52Z",
+            "source": "Classmethod.jp",
+            "sentiment": {
+              "polarity": 0.0,
+              "subjectivity": 0.0,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "Contracted Capacity Becomes Key Metric for AI Infrastructure Investors to Watch",
+            "description": "AUSTIN, Texas, Oct. 12, 2026 (GLOBE NEWSWIRE) \u2014 AINewsWire Editorial Coverage: The artificial intelligence industry is racing to build computing capacity. But a new constraint is emerging just as quickly: electricity. The International Energy Agency\u00a0projects \u2026",
+            "url": "https://financialpost.com/globe-newswire/contracted-capacity-becomes-key-metric-for-ai-infrastructure-investors-to-watch",
+            "published_at": "2026-10-12T13:05:58Z",
+            "source": "Financial Post",
+            "sentiment": {
+              "polarity": -0.026060606060606062,
+              "subjectivity": 0.5909090909090909,
+              "label": "neutral"
+            }
+          }
+        ]
+      }
+    },
+    "TSLA": {
+      "symbol": "TSLA",
+      "analysis_timestamp": "2026-10-19T21:10:58.441701",
+      "fundamentals": {
+        "symbol": "TSLA",
+        "timestamp": "2026-10-19T21:10:58.594001",
+        "pe_ratio": 340.7963,
+        "pb_ratio": 16.733803,
+        "ps_ratio": 14.028995,
+        "profit_margin": 0.03671,
+        "operating_margin": 0.014099999,
+        "roe": 0.046669997,
+        "roa": 0.019299999,
+        "current_ratio": 1.941,
+        "debt_to_equity": 18.373,
+        "quick_ratio": 1.347,
+        "revenue_growth": 0.255,
+        "earnings_growth": -0.03,
+        "market_cap": 1453670400000,
+        "enterprise_value": 1374200397824,
+        "shares_outstanding": 3949547394,
+        "float_shares": 2819147434,
+        "dividend_yield": 0.0,
+        "payout_ratio": 0.0,
+        "free_cash_flow": 6220000000.0
+      },
+      "technical": {
+        "symbol": "TSLA",
+        "timestamp": "2026-10-19T21:10:58.832577",
+        "current_price": 368.05999755859375,
+        "volume_latest": "38651173",
+        "volume_avg_20d": 34564638.65,
+        "sma_20": 369.97149963378905,
+        "sma_50": 360.2517987060547,
+        "sma_200": 387.58304931640623,
+        "ema_20": 368.07175553424156,
+        "ema_50": 365.46399926715134,
+        "rsi": 59.06599669084004,
+        "volatility": 0.44997004107512845,
+        "beta": 2.1784496442953287,
+        "high_52w": 489.8800048828125,
+        "low_52w": 298.32000732421875,
+        "return_1d": 0.03760711629449576,
+        "return_1w": -0.019108315480649618,
+        "return_1m": 0.01040439415605987,
+        "return_3m": -0.03355739655022516
+      },
+      "news_sentiment": {
+        "symbol": "TSLA",
+        "timestamp": "2026-10-19T21:10:58.972815",
+        "articles_count": 20,
+        "average_sentiment": 0.0939534632034632,
+        "sentiment_distribution": {
+          "positive": 8,
+          "neutral": 12,
+          "negative": 0
+        },
+        "articles": [
+          {
+            "title": "Elon Musk makes an odd new promise about the Tesla Roadster",
+            "description": "Car buyers have always paid for a feeling before they paid for a machine. The brochure sells freedom, and the final price shows up later.\nFew companies have pushed that idea further than Tesla (TSLA). Its product reveals are often years ahead of the products,\u2026",
+            "url": "https://biztoc.com/x/a7e9d5cb78f9049d",
+            "published_at": "2026-10-18T17:46:39Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": -0.03838383838383839,
+              "subjectivity": 0.3840909090909091,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "Show HN: CLI for your financial data (and Costco and Amazon)",
+            "description": "A CLI for your financial data, built for the AI era: fin connects your banks, cards and brokerages through Plaid and brings in your Amazon and Costco purchases, locally and for free.",
+            "url": "https://kilianc.github.io/fin/",
+            "published_at": "2026-10-18T17:11:24Z",
+            "source": "Github.io",
+            "sentiment": {
+              "polarity": 0.1,
+              "subjectivity": 0.2,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "What To Expect In Markets This Week: SPCX, TSLA, META, NFLX, IBM Earnings And More",
+            "description": "Tesla and SpaceX will give investors a rare back-to-back look at Elon Musk's sprawling AI ambitions, with SpaceX reporting Tuesday and Tesla following Wednesday.\n- For SpaceX, the focus will extend well beyond its traditional rocket business as investors asse\u2026",
+            "url": "https://biztoc.com/x/301a9f74f14a6d61",
+            "published_at": "2026-10-18T15:17:06Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": 0.2,
+              "subjectivity": 0.5625,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "Apple shares hit new all-time closing high",
+            "description": "In Nasdaq trading today, shares of Apple Inc. rose to hit a new all-time closing high. Apple\u2019s all-time intraday high was set on\u2026\nThe post Apple shares hit new all-time closing high appeared first on MacDailyNews.",
+            "url": "https://macdailynews.com/2026/10/16/apple-shares-hit-new-all-time-closing-high-35/",
+            "published_at": "2026-10-16T21:00:14Z",
+            "source": "Macdailynews.com",
+            "sentiment": {
+              "polarity": 0.21101010101010098,
+              "subjectivity": 0.5341077441077441,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "Wall Street buzzing over potential SpaceX-Tesla merger in wake of \u2018flying\u2019 car demo",
+            "description": "Elon Musk\u2019s unveiling of a new \u201cflying\u201d Tesla on a SpaceX site this week has tech observers buzzing about an out-of-this-world merger between the two companies, with Kalshi bettors putting the odds of such a combo at over 50% for early next year.",
+            "url": "https://nypost.com/2026/10/16/business/wall-street-kalshi-bettors-eye-spacex-tesla-merger-in-wake-of-flying-car-demo/",
+            "published_at": "2026-10-16T20:36:04Z",
+            "source": "New York Post",
+            "sentiment": {
+              "polarity": 0.04727272727272727,
+              "subjectivity": 0.45090909090909087,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "\u2018Something extraordinary\u2019: Tesla Roadster wows with compressed air thrusters for limited flight",
+            "description": "After a two-week delay, the Tesla (TSLA) Roadster event went off with a massive bang \u2014 a flying one.\nThe wedge-shaped, cyberpunk-looking Roadster EV appeared in front of an inverted half roller coaster ramp erected at SpaceX's facility in Waco, Texas. The Roa\u2026",
+            "url": "https://biztoc.com/x/f192020f9b397b5d",
+            "published_at": "2026-10-16T17:01:26Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": 0.0238095238095238,
+              "subjectivity": 0.5773809523809523,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "Tesla Unveils Redesigned Rocket-Powered Roadster With Delayed Production Timeline",
+            "description": "Key Stats for Tesla Stock\n- Price change for Tesla stock in last 6 months: -7%\n- $TSLA Stock Price as of Oct. 15: $362\n- 52-Week High: $499\n- $TSLA Stock Price Target: $398\nWhat Happened?\nTesla (TSLA:NASDAQ) unveiled a redesigned Roadster on Thursday, built w\u2026",
+            "url": "https://biztoc.com/x/651d0816011acaa6",
+            "published_at": "2026-10-16T15:15:29Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": 0.05333333333333334,
+              "subjectivity": 0.5355555555555556,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "Rocket Thrusters on a Road Car Arrive as EV Makers Split Into Winners and Laggards",
+            "description": "AUSTIN, Texas, Oct. 16, 2026 /PRNewswire/ -- Energy Metal News News Commentary - Global electric car sales grew 20% to exceed 20 million in 2025 and are expected to reach 23 million in 2026, representing 28% of total car sales, according to the International \u2026",
+            "url": "https://www.prnewswire.com/news-releases/rocket-thrusters-on-a-road-car-arrive-as-ev-makers-split-into-winners-and-laggards-302911124.html",
+            "published_at": "2026-10-16T12:30:00Z",
+            "source": "PRNewswire",
+            "sentiment": {
+              "polarity": -0.025,
+              "subjectivity": 0.2875,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "Tesla stock pops after unveiling Roadster with compressed air thrusters for limited flight",
+            "description": "After a two-week delay, the Tesla (TSLA) Roadster event went off with a massive bang \u2014 a flying one.\nThe wedge-shaped, cyberpunk-looking Roadster EV appeared in front of an inverted half roller coaster ramp erected at SpaceX's facility in Waco, Texas. The Roa\u2026",
+            "url": "https://biztoc.com/x/12bccef5ece14737",
+            "published_at": "2026-10-16T11:58:17Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": -0.07936507936507936,
+              "subjectivity": 0.4365079365079365,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "Tesla unveils new Roadster that can flip in the air and land using rocket-style thrusters",
+            "description": "Tesla TSLA-Q unveiled a redesigned Roadster powered with rocket-style thrusters on Thursday and said it would start production in 2028, more than a decade after it first showed a next-generation version of its electric sports car.\nThe white two-seater vehicle\u2026",
+            "url": "https://biztoc.com/x/f206fe21ff1e99c9",
+            "published_at": "2026-10-16T10:55:43Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": 0.2215909090909091,
+              "subjectivity": 0.32196969696969696,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "Tokenized Tesla surges as Elon Musk unveils SpaceX-powered flying Roadster prototype",
+            "description": "Volume in Hyperliquid\u2019s Tesla contract hit $47 million in one hour after Elon Musk\u2019s flying Roadster demo, up from $2.8 million, with U.S. stocks closed.",
+            "url": "https://www.coindesk.com/business/2026/10/16/elon-musk-s-flying-roadster-reveal-sent-tesla-crypto-trading-into-overdrive-while-stock-markets-were-closed",
+            "published_at": "2026-10-16T10:48:49Z",
+            "source": "CoinDesk",
+            "sentiment": {
+              "polarity": -0.1,
+              "subjectivity": 0.1,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "TSLA Stock Gets Some Thrust From \u2018Flying\u2019 Roadster Reveal \u2014 Munster Calls It \u2018Engineering Flex\u2019 With A Tesla-SpaceX Clue",
+            "description": "TSLA Stock Gets Some Thrust From \u2018Flying\u2019 Roadster Reveal \u2014 Munster Calls It \u2018Engineering Flex\u2019 With A Tesla-SpaceX Clue\n- Gene Munster called the event an \"engineering flex\" with \"no commercial value\" beyond embarrassing rivals, but saw a clue to Musk's Tesl\u2026",
+            "url": "https://biztoc.com/x/2ac9bb7fe994e243",
+            "published_at": "2026-10-16T04:24:08Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": 0.0,
+              "subjectivity": 0.0,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "Tesla's flying Roadster is a weapon in the talent wars",
+            "description": "Elon Musk unveiled the next Tesla Roadster. It's gymnastics routine could bring in some sales \u2014 but it's recruiting message might be more important.",
+            "url": "https://www.businessinsider.com/tesla-roadster-reveal-flying-elon-musk-2026-10#article",
+            "published_at": "2026-10-16T04:03:11Z",
+            "source": "Business Insider",
+            "sentiment": {
+              "polarity": 0.3,
+              "subjectivity": 0.5,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "Did Elon Musk Just Hint at Tesla x SpaceX Merger, or Will Cars Fly First?",
+            "description": "Elon Musk paired the words Tesla x SpaceX with the Roadster livestream link, reviving Tesla SpaceX merger speculation. Polymarket bettors, meanwhile, give the car a 60% chance of a Roadster flying for one second or more.\nNeither Tesla (TSLA) nor SpaceX (SPCX)\u2026",
+            "url": "https://biztoc.com/x/8c722002f26ad262",
+            "published_at": "2026-10-16T02:53:14Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": 0.3875,
+              "subjectivity": 0.43333333333333335,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "Tesla unveils Roadster featuring compressed air thrusters for limited flight",
+            "description": "After a two-week delay, the Tesla (TSLA) Roadster event went off with a massive bang \u2014 a flying one.\nThe wedge-shaped, cyberpunk-looking Roadster EV appeared in front of an inverted half roller coaster ramp erected at SpaceX's facility in Waco, Texas. The Roa\u2026",
+            "url": "https://biztoc.com/x/da44cfb341b21ce8",
+            "published_at": "2026-10-16T02:38:24Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": -0.07936507936507936,
+              "subjectivity": 0.4365079365079365,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "People who paid $50K to reserve a Roadster would have made bank investing that in Tesla stock instead",
+            "description": "Tesla is re-revealing the Roadster, nine years after reservation holders forked over $50,000. Here's what an investment in TSLA would have yielded.",
+            "url": "https://www.businessinsider.com/tesla-roadster-reservation-50k-value-stock-investment-2026-10#article",
+            "published_at": "2026-10-15T18:44:25Z",
+            "source": "Business Insider",
+            "sentiment": {
+              "polarity": 0.0,
+              "subjectivity": 0.0,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "Will SpaceX merge with Tesla? Speculation resurfaces it could before the end of 2026",
+            "description": "The steady drip of Tesla (TSLA) and SpaceX (SPCX) merger talk is increasing, and this time it's coming from a Wall Street bank.\nIn a note to clients on Wednesday, Barclays analyst Dan Levy said a tie-up \"has increasingly become the consensus expectation.\" He \u2026",
+            "url": "https://biztoc.com/x/a0f78163b511a6bc",
+            "published_at": "2026-10-15T16:21:13Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": 0.16666666666666666,
+              "subjectivity": 0.5,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "Why Are Nasdaq Futures Sinking Premarket? CRWV, MU, TSM, SKHY, IBRX, RKLB, TSLA Stocks In Focus",
+            "description": "Global semiconductor stock selloff has hit risk appetite. South Korea's Kospi slipped over 7% on Thursday, with SK Hynix and Samsung among the hardest-hit stocks.\n- TSM, the world's largest contract chipmaker, reported strong Q3 earnings and raised its 2026 g\u2026",
+            "url": "https://biztoc.com/x/5b8b6bdb6634e5e4",
+            "published_at": "2026-10-15T09:29:29Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": 0.21666666666666667,
+              "subjectivity": 0.3666666666666667,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "Analyst Sees TSLA-SPCX Merger Coming By December, but Prediction Markets Aren\u2019t Buying It",
+            "description": "Benzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below.\nTalks of a merger between Space Exploration Technologies Corp. (NASDAQ:SPCX) and Tesla Inc. (NASDAQ:TSLA), both led by trillionaire Elon Musk, gained traction\u2026",
+            "url": "https://biztoc.com/x/cc1fa81eacc25ada",
+            "published_at": "2026-10-15T06:43:10Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": 0.0,
+              "subjectivity": 0.0,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "TSLA Stock Slips Overnight Ahead Of Roadster Event \u2014 Elon Musk Promises \u2018Greatest Product Demo Of All Time\u2019",
+            "description": "The outdoor demonstration was postponed from Oct.1 to Oct.15 because of severe weather forecasts and high winds.\n- Nearly nine years after its unveiling, the Roadster remains in design development.\n- The Roadster unveiling comes less than a week before Tesla \u2026",
+            "url": "https://biztoc.com/x/95a8a2388b87c7de",
+            "published_at": "2026-10-15T06:43:06Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": 0.2733333333333333,
+              "subjectivity": 0.5016666666666667,
+              "label": "positive"
+            }
+          }
+        ]
+      }
+    },
+    "NVDA": {
+      "symbol": "NVDA",
+      "analysis_timestamp": "2026-10-19T21:11:00.976496",
+      "fundamentals": {
+        "symbol": "NVDA",
+        "timestamp": "2026-10-19T21:11:01.157949",
+        "pe_ratio": 27.445007,
+        "pb_ratio": 22.892544,
+        "ps_ratio": 17.30228,
+        "profit_margin": 0.63663,
+        "operating_margin": 0.66236997,
+        "roe": 1.17211,
+        "roa": 0.53572,
+        "current_ratio": 4.589,
+        "debt_to_equity": 16.971,
+        "quick_ratio": 2.918,
+        "revenue_growth": 1.059,
+        "earnings_growth": 1.278,
+        "market_cap": 5242072072192,
+        "enterprise_value": 5136924016640,
+        "shares_outstanding": 24147000000,
+        "float_shares": 23133108000,
+        "dividend_yield": 0.47,
+        "payout_ratio": 0.0354,
+        "free_cash_flow": 96676000000.0
+      },
+      "technical": {
+        "symbol": "NVDA",
+        "timestamp": "2026-10-19T21:11:01.429534",
+        "current_price": 217.08999633789062,
+        "volume_latest": "98236684",
+        "volume_avg_20d": 104283399.2,
+        "sma_20": 227.66250076293946,
+        "sma_50": 222.83075927734376,
+        "sma_200": 202.81199279785156,
+        "ema_20": 224.74910083346091,
+        "ema_50": 221.7880145729104,
+        "rsi": 38.62919792576408,
+        "volatility": 0.3741632850622569,
+        "beta": 1.923893804254844,
+        "high_52w": 239.24000549316406,
+        "low_52w": 164.79331970214844,
+        "return_1d": 0.013823338101066396,
+        "return_1w": -0.05001753772480455,
+        "return_1m": -0.02330502467719664,
+        "return_3m": 0.07160848115090568
+      },
+      "news_sentiment": {
+        "symbol": "NVDA",
+        "timestamp": "2026-10-19T21:11:01.598222",
+        "articles_count": 20,
+        "average_sentiment": 0.13698295454545453,
+        "sentiment_distribution": {
+          "positive": 11,
+          "neutral": 7,
+          "negative": 2
+        },
+        "articles": [
+          {
+            "title": "The $5 Trillion Club: Which Is the Better Stock to Own, Apple or Nvidia?",
+            "description": "Only two companies in the world have ever reached a $5 trillion market cap: Apple (NASDAQ: AAPL) and Nvidia (NASDAQ: NVDA). To reach those heights, both are obviously great companies, but which stock looks like the better long-term buy?\nIn my view, Nvidia has\u2026",
+            "url": "https://biztoc.com/x/6596b07635a83cf4",
+            "published_at": "2026-10-18T20:49:55Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": 0.4800000000000001,
+              "subjectivity": 0.75,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "Show HN: CLI for your financial data (and Costco and Amazon)",
+            "description": "A CLI for your financial data, built for the AI era: fin connects your banks, cards and brokerages through Plaid and brings in your Amazon and Costco purchases, locally and for free.",
+            "url": "https://kilianc.github.io/fin/",
+            "published_at": "2026-10-18T17:11:24Z",
+            "source": "Github.io",
+            "sentiment": {
+              "polarity": 0.1,
+              "subjectivity": 0.2,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "Not Nvidia. Not TSMC. This Equipment Maker Is the Real Bottleneck in AI Chip Production",
+            "description": "Nvidia (NVDA -1.43%) and TSMC (TSM -2.28%) are often considered the bellwethers of the AI chip market. Nvidia, the world's largest producer of discrete GPUs for data centers, provides the best \"picks and shovels\" for the AI gold rush. TSMC, the world's larges\u2026",
+            "url": "https://biztoc.com/x/5bc98258d2259952",
+            "published_at": "2026-10-18T15:45:39Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": 0.6,
+              "subjectivity": 0.30000000000000004,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "tidelight added to PyPI",
+            "description": "Official Tidelight Intelligence Cloud Python client",
+            "url": "https://pypi.org/project/tidelight/",
+            "published_at": "2026-10-18T03:40:41Z",
+            "source": "Pypi.org",
+            "sentiment": {
+              "polarity": 0.0,
+              "subjectivity": 0.0,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "Only 10.7% of tokenized stock market cap is issuer-sponsored",
+            "description": "The dominance of synthetic tokens over issuer-sponsored ones highlights potential risks in investor rights and market dependency on custodians.\nThe post Only 10.7% of tokenized stock market cap is issuer-sponsored appeared first on Crypto Briefing.",
+            "url": "https://cryptobriefing.com/tokenized-stocks-issuer-sponsored-share/",
+            "published_at": "2026-10-17T12:37:09Z",
+            "source": "Crypto Briefing",
+            "sentiment": {
+              "polarity": 0.0625,
+              "subjectivity": 0.8333333333333334,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "NVIDIA RTX Spark \u642d\u8f09 PC\u3001\u672c\u65e5\u767a\u58f2 \u2015 Windows PC \u306e\u65b0\u305f\u306a\u5e55\u958b\u3051",
+            "description": "[NVIDIA]\n[\u753b\u50cf: https://prcdn.freetls.fastly.net/release_image/12662/662/12662-662-6bf99eebc4c67346a79ffc666829a487-700x393.jpg?width=536&quality=85%2C75&format=jpeg&auto=webp&fit=bounds&amp...",
+            "url": "https://prtimes.jp/main/html/rd/p/000000662.000012662.html",
+            "published_at": "2026-10-17T02:40:36Z",
+            "source": "Prtimes.jp",
+            "sentiment": {
+              "polarity": 0.0,
+              "subjectivity": 0.0,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "I still braid hair, do makeup despite being blind \u2014 Adams",
+            "description": "Susan Adams, a blind braider and makeup artist, shares her story of losing her sight to glaucoma and how she challenges misconceptions about blindness.\n\nRead More: https://punchng.com/i-still-braid-hair-do-makeup-despite-being-blind-adams/",
+            "url": "https://punchng.com/i-still-braid-hair-do-makeup-despite-being-blind-adams/",
+            "published_at": "2026-10-16T23:50:04Z",
+            "source": "The Punch",
+            "sentiment": {
+              "polarity": -0.16666666666666666,
+              "subjectivity": 0.611111111111111,
+              "label": "negative"
+            }
+          },
+          {
+            "title": "Apple shares hit new all-time closing high",
+            "description": "In Nasdaq trading today, shares of Apple Inc. rose to hit a new all-time closing high. Apple\u2019s all-time intraday high was set on\u2026\nThe post Apple shares hit new all-time closing high appeared first on MacDailyNews.",
+            "url": "https://macdailynews.com/2026/10/16/apple-shares-hit-new-all-time-closing-high-35/",
+            "published_at": "2026-10-16T21:00:14Z",
+            "source": "Macdailynews.com",
+            "sentiment": {
+              "polarity": 0.21101010101010098,
+              "subjectivity": 0.5341077441077441,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "Microsoft gives XBOX mode a more handheld-friendly Gaming Task View",
+            "description": "Microsoft\u2019s latest preview builds introduce a redesigned Gaming Task View that provides quick access to the desktop and power settings.",
+            "url": "https://www.windowscentral.com/microsoft/windows-11/a-new-xbox-mode-feature-will-make-it-easier-to-jump-back-to-the-desktop",
+            "published_at": "2026-10-16T18:20:25Z",
+            "source": "Windows Central",
+            "sentiment": {
+              "polarity": 0.4444444444444444,
+              "subjectivity": 0.6333333333333333,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "Tesla Gets Competition From Nvidia In Self Driving Cars",
+            "description": "The post Tesla Gets Competition From Nvidia In Self Driving Cars appeared first on 24/7 Wall St..\nNvidia (NASDAQ: NVDA) announced a deal with Volvo yesterday. Volvo is far from one of the world\u2019s largest car companies. However, Zhejiang Geely Holding Group, w\u2026",
+            "url": "https://biztoc.com/x/c7c26efc4b76ea1b",
+            "published_at": "2026-10-16T15:28:34Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": 0.175,
+              "subjectivity": 0.6666666666666666,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "Tesla pops, tech heads for losing week: AlphaCheck",
+            "description": "Good morning. Stocks were mixed on Friday, while the Tech (XLK) sector declined, capping a volatile week.\nNeocloud provider CoreWeave (CRWV) sank 6%, reversing gains from Thursday amid continued worries over AI financing.\nAI semiconductor giants Nvidia (NVDA)\u2026",
+            "url": "https://biztoc.com/x/f03a04604897be0a",
+            "published_at": "2026-10-16T14:16:21Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": 0.35,
+              "subjectivity": 0.42500000000000004,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "CoreWeave stock sinks in pre-market as AI financing worries linger",
+            "description": "stock fell 5% in premarket trading Friday as concerns over AI funding continued to weigh on investor sentiment.\nThe decline comes after CoreWeave stock rebounded from a 7% drop on Thursday, following comments from (NVDA) CEO Jensen Huang that helped ease conc\u2026",
+            "url": "https://biztoc.com/x/d91b9c1fdb512a52",
+            "published_at": "2026-10-16T13:30:41Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": -0.05,
+              "subjectivity": 0.05,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "Show HN: I made an MCP Agents can reason every finance data the first time",
+            "description": "Article URL: https://github.com/PreReason/mcp\nComments URL: https://news.ycombinator.com/item?id=50117897\nPoints: 1\n# Comments: 0",
+            "url": "https://github.com/PreReason/mcp",
+            "published_at": "2026-10-16T13:04:39Z",
+            "source": "Github.com",
+            "sentiment": {
+              "polarity": 0.25,
+              "subjectivity": 0.3333333333333333,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "Lenders Are Getting Nervous About CoreWeave. I'd Still Buy Nvidia Stock",
+            "description": "Lenders are getting nervous about CoreWeave (CRWV +5.94%), a cloud company that rents out artificial intelligence (AI) chips made by Nvidia (NVDA -1.84%). In June, CoreWeave sold $1.25 billion in unsecured notes due 2032 at face value, with a 9.625% coupon. O\u2026",
+            "url": "https://biztoc.com/x/adf3f88296f0f5aa",
+            "published_at": "2026-10-16T10:55:54Z",
+            "source": "Biztoc.com",
+            "sentiment": {
+              "polarity": -0.3625,
+              "subjectivity": 0.6875,
+              "label": "negative"
+            }
+          },
+          {
+            "title": "Design Accessible Navigation for Keyboards and Screen Readers",
+            "description": "Accessibility is often treated as a finishing touch, but for navigation, it belongs at the foundation. Menus are how users reach everything else on a site, so a menu that works only with a mouse quietly shuts out anyone who depends on a keyboard, a screen rea\u2026",
+            "url": "https://ixdf.org/literature/article/design-accessible-navigation-for-keyboards-and-screen-readers",
+            "published_at": "2026-10-16T09:31:24Z",
+            "source": "Ixdf.org",
+            "sentiment": {
+              "polarity": 0.125,
+              "subjectivity": 0.5694444444444444,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "Mercedes-Benz and NVIDIA Expand Strategic Partnership to Advance Safe Highly Automated Driving in the Next Decade",
+            "description": "Mercedes-Benz and NVIDIA today announced that they will extend their strategic partnership to advance the next generation of automated driving systems.",
+            "url": "https://nvidianews.nvidia.com/news/mercedes-benz-and-nvidia-expand-strategic-partnership-to-advance-safe-highly-automated-driving-in-the-next-decade",
+            "published_at": "2026-10-16T08:00:00Z",
+            "source": "Nvidia.com",
+            "sentiment": {
+              "polarity": 0.165,
+              "subjectivity": 0.26,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "Volvo Cars \u3068 NVIDIA\u3001\u5b89\u5168\u306a\u81ea\u52d5\u904b\u8ee2\u306e\u9032\u5316\u306b\u5411\u3051\u3066\u30d1\u30fc\u30c8\u30ca\u30fc\u30b7\u30c3\u30d7\u3092\u62e1\u5927",
+            "description": "[NVIDIA]\n[\u753b\u50cf: https://prcdn.freetls.fastly.net/release_image/12662/661/12662-661-6733ed8a4146cf4c15ddc44fa1f10808-1600x900.jpg?width=536&quality=85%2C75&format=jpeg&auto=webp&fit=bounds&am...",
+            "url": "https://prtimes.jp/main/html/rd/p/000000661.000012662.html",
+            "published_at": "2026-10-16T06:54:16Z",
+            "source": "Prtimes.jp",
+            "sentiment": {
+              "polarity": 0.0,
+              "subjectivity": 0.0,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "Jim Cramer says this week's AI sell-off offers a crucial lesson for investors",
+            "description": "CNBC\u2019s Jim Cramer said Thursday\u2019s AI sell-off underscores the importance of owning stocks outside the market\u2019s hottest trade.",
+            "url": "https://www.cnbc.com/2026/10/15/jim-cramer-ai-stocks-diversification.html",
+            "published_at": "2026-10-15T22:16:13Z",
+            "source": "CNBC",
+            "sentiment": {
+              "polarity": 0.03333333333333333,
+              "subjectivity": 0.35000000000000003,
+              "label": "neutral"
+            }
+          },
+          {
+            "title": "Volvo Cars and NVIDIA Expand Partnership to Advance Safe Automated Driving",
+            "description": "Volvo Cars today announced it is expanding its partnership with NVIDIA to unlock new levels of safety in automated driving technology in future cars from Volvo, building on the companies\u2019 decade-long collaboration.",
+            "url": "https://nvidianews.nvidia.com/news/volvo-cars-and-nvidia-expand-partnership-to-advance-safe-automated-driving",
+            "published_at": "2026-10-15T17:30:00Z",
+            "source": "Nvidia.com",
+            "sentiment": {
+              "polarity": 0.21212121212121213,
+              "subjectivity": 0.35984848484848486,
+              "label": "positive"
+            }
+          },
+          {
+            "title": "\u2018Big Short\u2019 Investor Michael Burry Hints Stocks Could Peak Within Nine Months, Funnels Bearish Bets Into Nasdaq and Chip Stocks ETF",
+            "description": "The investor who famously called the 2008 housing crash is hinting that US stocks could hit a major peak within the next nine months. Michael Burry has consolidated nearly all of his bearish exposure into put options on the Nasdaq-100 index (NDX) and the VanE\u2026",
+            "url": "https://dailyhodl.com/2026/10/15/big-short-investor-michael-burry-hints-stocks-could-peak-within-nine-months-funnels-bearish-bets-into-nasdaq-and-chip-stocks/",
+            "published_at": "2026-10-15T16:55:02Z",
+            "source": "The Daily Hodl",
+            "sentiment": {
+              "polarity": 0.11041666666666666,
+              "subjectivity": 0.3833333333333333,
+              "label": "positive"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "summary": {
+    "total_stocks": 5,
+    "successful_analyses": 5,
+    "failed_analyses": 0
+  }
+}
