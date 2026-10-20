@@ -1,1 +1,497 @@
-
+{
+  "symbol": "INTC",
+  "plan": {
+    "pre_apply": [
+      "add_confidence_caveat",
+      "add_risk_disclosure"
+    ],
+    "symbol": "INTC",
+    "created_at": "2026-10-19T20:56:39.134169",
+    "company": "Intel Corporation",
+    "sector": "Technology",
+    "steps": [
+      {
+        "step": "price_history",
+        "tool": "yahoo_price_history",
+        "params": {
+          "period": "1y"
+        },
+        "output_key": "price_history",
+        "why": "Daily OHLCV needed for trend, RSI and charts",
+        "status": "ok"
+      },
+      {
+        "step": "technicals",
+        "tool": "yahoo_technicals",
+        "params": {},
+        "output_key": "technical",
+        "why": "Moving averages, RSI, volatility and beta",
+        "status": "ok"
+      },
+      {
+        "step": "fundamentals",
+        "tool": "yahoo_fundamentals",
+        "params": {},
+        "output_key": "fundamentals",
+        "why": "Valuation, profitability and leverage ratios",
+        "status": "ok"
+      },
+      {
+        "step": "news",
+        "tool": "yahoo_news",
+        "fallback": "newsapi_headlines",
+        "merge_fallback": false,
+        "params": {
+          "days_back": 14,
+          "company_name": "Intel Corporation"
+        },
+        "output_key": "news_sentiment",
+        "why": "Headlines for sentiment, themes and events",
+        "status": "fallback newsapi_headlines failed"
+      },
+      {
+        "step": "economic",
+        "tool": "fred_economic",
+        "params": {},
+        "output_key": "economic_indicators",
+        "optional": true,
+        "why": "Rates, inflation, growth and employment context",
+        "status": "skipped (optional)"
+      }
+    ],
+    "focus_metrics": [
+      "revenue_growth",
+      "pe_ratio",
+      "ps_ratio",
+      "rsi"
+    ],
+    "lessons_applied": [
+      "LOW_NEWS_COVERAGE last run (0 relevant articles with 7-day window) -> news window 14 days",
+      "NewsAPI demoted to fallback (reliability 0%)",
+      "FRED marked optional (reliability 0%)",
+      "Optimizer needed ['add_confidence_caveat', 'add_risk_disclosure'] last run -> applied before first evaluation"
+    ],
+    "previous_score": 62.2
+  },
+  "report": "======================================================================\n  INVESTMENT RESEARCH REPORT \u2014 INTC\n  Generated: 2026-10-19T20:56:39.134284\n======================================================================\n\n1. COMPANY OVERVIEW & FUNDAMENTAL HIGHLIGHTS\n--------------------------------------------------\n   P/E Ratio:          N/A\n   \u2192 P/E ratio unavailable\n   ROE:                -10.7%\n   \u2192 Negative return on equity\n   Debt-to-Equity:     49.00\n   \u2192 Relatively low debt level\n   Market Cap:         $486.48B\n   Profit Margin:      -19.8%\n   Revenue Growth:     25.4%\n\n2. RECENT PRICE PERFORMANCE & TECHNICAL SIGNALS\n--------------------------------------------------\n   Current Price:      $92.03\n   RSI (14):           20.87\n   \u2192 Oversold\n   Trend:              Moderately bearish trend\n   SMA 20:             $111.07\n   SMA 50:             $102.98\n   SMA 200:            $84.83\n   1-Day Return:       2.4%\n   1-Week Return:      -10.5%\n   1-Month Return:    -15.3%\n   3-Month Return:    -3.2%\n\n3. RECENT NEWS THEMES & SENTIMENT\n--------------------------------------------------\n   News/sentiment data not available.\n\n4. MATERIAL RISKS & UNCERTAINTIES\n--------------------------------------------------\n   Annualized Volatility: 77.7%\n   \u2192 High\n   Beta (vs S&P 500):     3.07\n   \u2192 Higher sensitivity than the market\n\n5. RELEVANT MARKET & ECONOMIC CONTEXT\n--------------------------------------------------\n   Economic indicators not available (FRED API connection issue).\n\n6. EVIDENCE-BACKED RESEARCH SUMMARY\n--------------------------------------------------\n   For INTC, fundamental analysis shows p/e ratio unavailable; technical indicators suggest moderately bearish trend; volatility risk is high.\n   This assessment combines data from Yahoo Finance, NewsAPI,\n   TextBlob sentiment analysis, and FRED economic indicators.\n   Investors should conduct further due diligence before deciding.\n\n7. SOURCE LIST & DATA TIMESTAMPS\n--------------------------------------------------\n   \u2022 Yahoo Finance (yfinance) \u2014 fundamentals, price/technical data\n   \u2022 NewsAPI \u2014 recent news headlines\n   \u2022 TextBlob \u2014 sentiment polarity scoring\n   \u2022 FRED API (REST) \u2014 macroeconomic indicators\n   Data collected at:      2026-10-19T20:56:39.134284\n   Coordinator routed at:  2026-10-19T20:56:52.058705\n\n8. COMPANY PROFILE & RESEARCH PLAN\n--------------------------------------------------\n   Intel Corporation | Technology / Semiconductors | United States\n   Intel Corporation designs, develops, manufactures, markets, sells, and services computing and related end products and services in the United States, Ireland, Israel, and internationally. It operates through three segments: CCG, DCAI, and Intel Foundry. The company offers client computing group prod...\n   \u2022 price_history yahoo_price_history  -> ok\n   \u2022 technicals    yahoo_technicals     -> ok\n   \u2022 fundamentals  yahoo_fundamentals   -> ok\n   \u2022 news          yahoo_news           -> fallback newsapi_headlines failed\n   \u2022 economic      fred_economic        -> skipped (optional)\n   \u21ba learned: LOW_NEWS_COVERAGE last run (0 relevant articles with 7-day window) -> news window 14 days\n   \u21ba learned: NewsAPI demoted to fallback (reliability 0%)\n   \u21ba learned: FRED marked optional (reliability 0%)\n   \u21ba learned: Optimizer needed ['add_confidence_caveat', 'add_risk_disclosure'] last run -> applied before first evaluation\n\n9. NEWS THEMES (PROMPT CHAIN OUTPUT)\n--------------------------------------------------\n   Stages: {'ingest': 0, 'preprocess': 0, 'classify': 0, 'extract': 0}\n   Themes: {}\n   Summary (template): No relevant recent news was found for INTC.\n\n10. ROUTED SPECIALIST ANALYZERS\n--------------------------------------------------\n   Routing table: {'earnings_analyzer': 0, 'market_analyzer': 0, 'news_event_analyzer': 0}\n   [earnings_analyzer]\n      - Revenue growth (YoY): +25.4%\n      - Net profit margin: -19.8%\n   [market_analyzer]\n      - Returns: 1M -15.3%, 3M -3.2%\n      - Beta 3.07 vs S&P 500\n   [news_event_analyzer]\n      - 0 potential catalysts (product / deals)\n      - 0 event risks (legal, management or negative-tone stories)\n\n11. MACRO ASSESSMENT (ECONOMIC AGENT)\n--------------------------------------------------\n   Economic data unavailable - macro assessment skipped.\n\n12. KEY RISKS, CAVEATS & SIGNAL RECONCILIATION\n--------------------------------------------------\n   \u26a0 High volatility (78% annualized)\n   \u26a0 Market risk: higher sensitivity than the market (beta 3.07)\n   \u26a0 Profitability risk: net margin -19.8% (loss-making)\n   \u26a0 Short-term momentum risk: RSI 21 (oversold)\n   \u2139 Confidence 0.51; lower-confidence components: fundamental (0.67), sentiment (0.00), economic (0.00).\n   \u2139 Sentiment is rule-based (TextBlob) and can misread financial language; news coverage is limited to free-tier APIs.\n   \u2139 This report is research support, not investment advice.\n\n13. SELF-REFLECTION (AGENT CONFIDENCE)\n--------------------------------------------------\n   Overall confidence: 0.51\n   fundamental_agent  0.67  Missing input: pe_ratio; P/E undefined because earnings are negative - P/S ratio is the better valuation gauge\n   technical_agent    1.00  no issues\n   risk_agent         0.90  Annualized volatility above 60% - point estimates are unstable\n   sentiment_agent    0.00  Agent did not run - no input data was collected\n   economic_agent     0.00  Agent did not run - no input data was collected\n\n14. QUALITY EVALUATION (EVALUATOR-OPTIMIZER)\n--------------------------------------------------\n   Iteration 1: 62.2/100 {'completeness': 12.0, 'evidence': 0.0, 'confidence': 10.2, 'consistency': 20, 'risk_disclosure': 20.0}\n      \ud83d\udd27 retry_economic: FRED failed again\n      \ud83d\udd27 add_news_source: merged articles from newsapi_headlines (failed)\n   Iteration 2: 62.2/100 {'completeness': 12.0, 'evidence': 0.0, 'confidence': 10.2, 'consistency': 20, 'risk_disclosure': 20.0}\n\n======================================================================\n  END OF REPORT\n======================================================================",
+  "evaluation_history": [
+    {
+      "iteration": 1,
+      "score": 62.2,
+      "breakdown": {
+        "completeness": 12.0,
+        "evidence": 0.0,
+        "confidence": 10.2,
+        "consistency": 20,
+        "risk_disclosure": 20.0
+      },
+      "passed": false,
+      "feedback": [
+        "Economic context missing",
+        "Only 0 relevant articles in 14 days (no news provider succeeded)"
+      ],
+      "actions": [
+        "retry_economic",
+        "add_news_source"
+      ],
+      "actions_applied": [
+        "retry_economic: FRED failed again",
+        "add_news_source: merged articles from newsapi_headlines (failed)"
+      ]
+    },
+    {
+      "iteration": 2,
+      "score": 62.2,
+      "breakdown": {
+        "completeness": 12.0,
+        "evidence": 0.0,
+        "confidence": 10.2,
+        "consistency": 20,
+        "risk_disclosure": 20.0
+      },
+      "passed": false,
+      "feedback": [
+        "Economic context missing",
+        "Only 0 relevant articles in 14 days (no news provider succeeded)"
+      ],
+      "actions": [],
+      "actions_applied": []
+    }
+  ],
+  "tool_log": [
+    {
+      "tool": "company_profile",
+      "success": true,
+      "seconds": 0.17,
+      "error": null,
+      "params": {}
+    },
+    {
+      "tool": "yahoo_price_history",
+      "success": true,
+      "seconds": 0.1,
+      "error": null,
+      "params": {
+        "period": "1y"
+      }
+    },
+    {
+      "tool": "yahoo_technicals",
+      "success": true,
+      "seconds": 0.13,
+      "error": null,
+      "params": {}
+    },
+    {
+      "tool": "yahoo_fundamentals",
+      "success": true,
+      "seconds": 0.21,
+      "error": null,
+      "params": {}
+    },
+    {
+      "tool": "yahoo_news",
+      "success": false,
+      "seconds": 0.2,
+      "error": "empty or error result",
+      "params": {
+        "days_back": 14,
+        "company_name": "Intel Corporation"
+      }
+    },
+    {
+      "tool": "newsapi_headlines",
+      "success": false,
+      "seconds": 0.08,
+      "error": "401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=%22INTC%22+OR+%22Intel+Corporation%22&from=2026-10-05&sortBy=publishedAt&language=en&pageSize=50&searchIn=title%2Cdescription&apiKey=***",
+      "params": {
+        "days_back": 14,
+        "company_name": "Intel Corporation"
+      }
+    },
+    {
+      "tool": "fred_economic",
+      "success": false,
+      "seconds": 6.22,
+      "error": "empty or error result",
+      "params": {}
+    },
+    {
+      "tool": "fred_economic",
+      "success": false,
+      "seconds": 5.91,
+      "error": "empty or error result",
+      "params": {
+        "refresh": true
+      }
+    },
+    {
+      "tool": "newsapi_headlines",
+      "success": false,
+      "seconds": 0.08,
+      "error": "401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=%22INTC%22+OR+%22Intel+Corporation%22&from=2026-10-05&sortBy=publishedAt&language=en&pageSize=50&searchIn=title%2Cdescription&apiKey=***",
+      "params": {
+        "days_back": 14,
+        "company_name": "Intel Corporation"
+      }
+    }
+  ],
+  "lessons": [
+    {
+      "code": "LOW_NEWS_COVERAGE",
+      "note": "0 relevant articles with 14-day window"
+    },
+    {
+      "code": "NEWSAPI_FAILED",
+      "note": "401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=%22INTC%22+OR+%22Intel+Corporation%22&from=2026-10-05&sortBy=publishedAt&language=en&pageSize=50&searchIn=title%2Cdescription&apiKey=***"
+    },
+    {
+      "code": "FRED_FAILED",
+      "note": "empty or error result"
+    },
+    {
+      "code": "OPTIMIZER_ACTIONS",
+      "note": "retry_economic, add_news_source"
+    },
+    {
+      "code": "LOW_QUALITY_SCORE",
+      "note": "62.2 - weakest: evidence"
+    }
+  ],
+  "summary": {
+    "initial_score": 62.2,
+    "final_score": 62.2,
+    "iterations": 2,
+    "overall_confidence": 0.51,
+    "news_days_back": 14,
+    "news_sources": [],
+    "relevant_articles": 0,
+    "overall_sentiment": null,
+    "trend": "Moderately bearish trend",
+    "tool_failures": [
+      "yahoo_news",
+      "newsapi_headlines",
+      "fred_economic",
+      "fred_economic",
+      "newsapi_headlines"
+    ],
+    "seconds": 13.1
+  },
+  "stock_data": {
+    "symbol": "INTC",
+    "analysis_timestamp": "2026-10-19T20:56:39.134284",
+    "profile": {
+      "symbol": "INTC",
+      "short_name": "Intel Corporation",
+      "long_name": "Intel Corporation",
+      "quote_type": "EQUITY",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "United States",
+      "employees": 85100,
+      "website": "https://www.intel.com",
+      "business_summary": "Intel Corporation designs, develops, manufactures, markets, sells, and services computing and related end products and services in the United States, Ireland, Israel, and internationally. It operates through three segments: CCG, DCAI, and Intel Foundry. The company offers client computing group products, including client and commercial CPUs, discrete client GPUs, edge computing, and connectivity products; data center and AI products, such as server CPUs, discrete GPUs, and networking products; and semiconductors comprising wafer fabrication, substrates, and other related products and services."
+    },
+    "technical": {
+      "symbol": "INTC",
+      "timestamp": "2026-10-19T20:56:39.360014",
+      "current_price": 92.02999877929688,
+      "volume_latest": "100901571",
+      "volume_avg_20d": 100241713.55,
+      "sma_20": 111.0745002746582,
+      "sma_50": 102.97960021972656,
+      "sma_200": 84.83240001678467,
+      "ema_20": 104.54220094572526,
+      "ema_50": 104.8026514432924,
+      "rsi": 20.867875924729034,
+      "volatility": 0.7772395482666162,
+      "beta": 3.0650293483015254,
+      "high_52w": 140.94000244140625,
+      "low_52w": 33.619998931884766,
+      "return_1d": 0.024262663797414152,
+      "return_1w": -0.10485360407827171,
+      "return_1m": -0.15257826821031473,
+      "return_3m": -0.03167089759295971
+    },
+    "fundamentals": {
+      "symbol": "INTC",
+      "timestamp": "2026-10-19T20:56:39.454528",
+      "pe_ratio": null,
+      "pb_ratio": 5.301573,
+      "ps_ratio": 8.529953,
+      "profit_margin": -0.19794,
+      "operating_margin": 0.12189999,
+      "roe": -0.10715,
+      "roa": 0.0141199995,
+      "current_ratio": 1.604,
+      "debt_to_equity": 48.997,
+      "quick_ratio": 1.157,
+      "revenue_growth": 0.254,
+      "earnings_growth": null,
+      "market_cap": 486480248832,
+      "enterprise_value": 489614409728,
+      "shares_outstanding": 5286105262,
+      "float_shares": 4619446520,
+      "dividend_yield": 0.0,
+      "payout_ratio": 0.0,
+      "free_cash_flow": -4949000000.0
+    }
+  },
+  "analysis": {
+    "symbol": "INTC",
+    "agent_results": {
+      "symbol": "INTC",
+      "coordinator_timestamp": "2026-10-19T20:56:52.058705",
+      "specialist_results": {
+        "fundamental_agent": {
+          "pe_ratio": null,
+          "roe": -0.10715,
+          "debt_to_equity": 48.997,
+          "pe_analysis": "P/E ratio unavailable",
+          "roe_analysis": "Negative return on equity",
+          "debt_analysis": "Relatively low debt level"
+        },
+        "technical_agent": {
+          "current_price": 92.02999877929688,
+          "rsi": 20.867875924729034,
+          "sma_20": 111.0745002746582,
+          "sma_50": 102.97960021972656,
+          "sma_200": 84.83240001678467,
+          "ema_20": 104.54220094572526,
+          "ema_50": 104.8026514432924,
+          "rsi_signal": "Oversold",
+          "trend": "Moderately bearish trend"
+        },
+        "risk_agent": {
+          "volatility": 0.7772395482666162,
+          "beta": 3.0650293483015254,
+          "volatility_risk": "High",
+          "beta_analysis": "Higher sensitivity than the market"
+        }
+      }
+    },
+    "news_chain": {
+      "stage_counts": {
+        "ingest": 0,
+        "preprocess": 0,
+        "classify": 0,
+        "extract": 0
+      },
+      "articles": [],
+      "extracted": {
+        "figures": [],
+        "top_entities": []
+      },
+      "summary": {
+        "symbol": "INTC",
+        "articles": 0,
+        "theme_counts": {},
+        "theme_sentiment": {},
+        "most_negative": null,
+        "most_positive": null,
+        "key_figures": [],
+        "top_entities": [],
+        "narrative": "No relevant recent news was found for INTC.",
+        "method": "template",
+        "prompt": "You are an equity research assistant. Summarize recent news for INTC in 3 sentences for an investor. Use only these facts.\nTheme counts: {}\nAverage sentiment by theme (-1..1): {}\nMost positive headline: None\nMost negative headline: None\nKey figures mentioned: []\nFrequently mentioned entities: []"
+      }
+    },
+    "routing": {
+      "routing_table": {
+        "earnings_analyzer": 0,
+        "market_analyzer": 0,
+        "news_event_analyzer": 0
+      },
+      "results": {
+        "earnings_analyzer": {
+          "items": 0,
+          "avg_sentiment": null,
+          "findings": [
+            "Revenue growth (YoY): +25.4%",
+            "Net profit margin: -19.8%"
+          ],
+          "headlines": [],
+          "figures_mentioned": []
+        },
+        "market_analyzer": {
+          "items": 0,
+          "findings": [
+            "Returns: 1M -15.3%, 3M -3.2%",
+            "Beta 3.07 vs S&P 500"
+          ],
+          "headlines": []
+        },
+        "news_event_analyzer": {
+          "items": 0,
+          "findings": [
+            "0 potential catalysts (product / deals)",
+            "0 event risks (legal, management or negative-tone stories)"
+          ],
+          "catalysts": [],
+          "event_risks": []
+        }
+      }
+    },
+    "reflection": {
+      "agents": {
+        "fundamental_agent": {
+          "confidence": 0.67,
+          "issues": [
+            "Missing input: pe_ratio",
+            "P/E undefined because earnings are negative - P/S ratio is the better valuation gauge"
+          ]
+        },
+        "technical_agent": {
+          "confidence": 1.0,
+          "issues": []
+        },
+        "risk_agent": {
+          "confidence": 0.9,
+          "issues": [
+            "Annualized volatility above 60% - point estimates are unstable"
+          ]
+        },
+        "sentiment_agent": {
+          "confidence": 0.0,
+          "issues": [
+            "Agent did not run - no input data was collected"
+          ]
+        },
+        "economic_agent": {
+          "confidence": 0.0,
+          "issues": [
+            "Agent did not run - no input data was collected"
+          ]
+        }
+      },
+      "cross_checks": [],
+      "overall_confidence": 0.51
+    },
+    "news_for_report": {},
+    "caveats": [
+      "Confidence 0.51; lower-confidence components: fundamental (0.67), sentiment (0.00), economic (0.00).",
+      "Sentiment is rule-based (TextBlob) and can misread financial language; news coverage is limited to free-tier APIs.",
+      "This report is research support, not investment advice."
+    ],
+    "reconciliations": {},
+    "attempted_actions": [
+      "add_confidence_caveat",
+      "add_risk_disclosure",
+      "retry_economic",
+      "add_news_source"
+    ],
+    "news_days_back": 14,
+    "news_sources": [],
+    "risks_refined": true,
+    "risks": [
+      "High volatility (78% annualized)",
+      "Market risk: higher sensitivity than the market (beta 3.07)",
+      "Profitability risk: net margin -19.8% (loss-making)",
+      "Short-term momentum risk: RSI 21 (oversold)"
+    ],
+    "evaluation_history": [
+      {
+        "iteration": 1,
+        "score": 62.2,
+        "breakdown": {
+          "completeness": 12.0,
+          "evidence": 0.0,
+          "confidence": 10.2,
+          "consistency": 20,
+          "risk_disclosure": 20.0
+        },
+        "passed": false,
+        "feedback": [
+          "Economic context missing",
+          "Only 0 relevant articles in 14 days (no news provider succeeded)"
+        ],
+        "actions": [
+          "retry_economic",
+          "add_news_source"
+        ],
+        "actions_applied": [
+          "retry_economic: FRED failed again",
+          "add_news_source: merged articles from newsapi_headlines (failed)"
+        ]
+      },
+      {
+        "iteration": 2,
+        "score": 62.2,
+        "breakdown": {
+          "completeness": 12.0,
+          "evidence": 0.0,
+          "confidence": 10.2,
+          "consistency": 20,
+          "risk_disclosure": 20.0
+        },
+        "passed": false,
+        "feedback": [
+          "Economic context missing",
+          "Only 0 relevant articles in 14 days (no news provider succeeded)"
+        ],
+        "actions": [],
+        "actions_applied": []
+      }
+    ]
+  }
+}
